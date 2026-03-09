@@ -69,8 +69,20 @@ private:
 			DWORD jmp;          //  jmp     zero,(at),0
 		};
 #pragma pack(pop)
+#elif defined(_M_X64)
+#pragma pack(push,8)
+		struct Thunk
+		{
+			WORD    mov_rax;        // mov rax, pThis
+			DWORD64 m_this;         //
+			WORD    mov_rdx;        // mov rdx, rax
+			WORD    mov_rax_proc;   // mov rax, WndProc
+			DWORD64 m_relproc;      // WndProc pointer
+			BYTE    jmp_rax;         // jmp rax
+		};
+#pragma pack(pop)
 #else
-#error Only Alpha and X86 supported
+#error Only Alpha, X86 and X64 supported
 #endif
 
 		Thunk thunk;
@@ -92,6 +104,16 @@ private:
 			thunk.lda_at = 0x239c0000 | LOWORD(proc);
 			thunk.lda_a0 = 0x22100000 | LOWORD(pThis);
 			thunk.jmp = 0x6bfc0000;
+#elif defined(_M_X64)
+			thunk.mov_rax = 0xb848;        // mov rax
+			thunk.m_this = (DWORD64)pThis;
+			thunk.mov_rdx = 0xd089;        // mov rdx, rax
+			thunk.mov_rax_proc = 0xb848;   // mov rax
+			thunk.m_relproc = (DWORD64)proc;
+			thunk.jmp_rax = 0xe0ff;        // jmp rax
+			
+			DWORD dwOldProtection;
+			VirtualProtect(&thunk, sizeof(Thunk), PAGE_EXECUTE_READWRITE, &dwOldProtection);
 #endif
 			// write block from data cache and
 			//  flush from instruction cache

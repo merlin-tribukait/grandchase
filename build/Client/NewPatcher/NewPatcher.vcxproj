@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3A7BF273-0FEA-3423-9ABA-EE0E29FF1E55}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>NewPatcher</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\grandchase\build\Client\NewPatcher\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NewPatcher.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NewPatcher</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\grandchase\build\Client\NewPatcher\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NewPatcher.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NewPatcher</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\grandchase\build\Client\NewPatcher\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">NewPatcher.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">NewPatcher</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\grandchase\build\Client\NewPatcher\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">NewPatcher.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">NewPatcher</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\grandchase\Server\Common;F:\grandchase\CommonFiles;F:\grandchase\Libs\InternalLib\KNCSDK_2015\include;F:\grandchase\Libs\ExternalLib\Boost\boost_1_67_0;F:\grandchase\Libs\ExternalLib\apache-log4cxx-0.10.0\src\main\include;F:\grandchase\Libs\ExternalLib\apr-1.7.0\include;F:\grandchase\Libs\ExternalLib\apr-util-1.6.1\include;F:\grandchase\Libs\ExternalLib\IntelTBB\tbb2019_20190410oss\include;F:\grandchase\Libs\ExternalLib\Serializer;F:\grandchase\Libs\ExternalLib\Thread;F:\grandchase\Client\NewPatcher;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4819;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>"stdafx.h"</PrecompiledHeaderFile>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;BOOST_SIGNALS_NO_DEPRECATION_WARNING;_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS;_VC80_UPGRADE=0x0710;_USE_32BIT_TIME_T;UNICODE;_UNICODE;WIN64;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;BOOST_SIGNALS_NO_DEPRECATION_WARNING;_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS;_VC80_UPGRADE=0x0710;_USE_32BIT_TIME_T;UNICODE;_UNICODE;WIN64;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\grandchase\Server\Common;F:\grandchase\CommonFiles;F:\grandchase\Libs\InternalLib\KNCSDK_2015\include;F:\grandchase\Libs\ExternalLib\Boost\boost_1_67_0;F:\grandchase\Libs\ExternalLib\apache-log4cxx-0.10.0\src\main\include;F:\grandchase\Libs\ExternalLib\apr-1.7.0\include;F:\grandchase\Libs\ExternalLib\apr-util-1.6.1\include;F:\grandchase\Libs\ExternalLib\IntelTBB\tbb2019_20190410oss\include;F:\grandchase\Libs\ExternalLib\Serializer;F:\grandchase\Libs\ExternalLib\Thread;F:\grandchase\Client\NewPatcher;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\grandchase\Server\Common;F:\grandchase\CommonFiles;F:\grandchase\Libs\InternalLib\KNCSDK_2015\include;F:\grandchase\Libs\ExternalLib\Boost\boost_1_67_0;F:\grandchase\Libs\ExternalLib\apache-log4cxx-0.10.0\src\main\include;F:\grandchase\Libs\ExternalLib\apr-1.7.0\include;F:\grandchase\Libs\ExternalLib\apr-util-1.6.1\include;F:\grandchase\Libs\ExternalLib\IntelTBB\tbb2019_20190410oss\include;F:\grandchase\Libs\ExternalLib\Serializer;F:\grandchase\Libs\ExternalLib\Thread;F:\grandchase\Client\NewPatcher;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\grandchase\Server\Common;F:\grandchase\CommonFiles;F:\grandchase\Libs\InternalLib\KNCSDK_2015\include;F:\grandchase\Libs\ExternalLib\Boost\boost_1_67_0;F:\grandchase\Libs\ExternalLib\apache-log4cxx-0.10.0\src\main\include;F:\grandchase\Libs\ExternalLib\apr-1.7.0\include;F:\grandchase\Libs\ExternalLib\apr-util-1.6.1\include;F:\grandchase\Libs\ExternalLib\IntelTBB\tbb2019_20190410oss\include;F:\grandchase\Libs\ExternalLib\Serializer;F:\grandchase\Libs\ExternalLib\Thread;F:\grandchase\Client\NewPatcher;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4819;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>"stdafx.h"</PrecompiledHeaderFile>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;BOOST_SIGNALS_NO_DEPRECATION_WARNING;_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS;_VC80_UPGRADE=0x0710;_USE_32BIT_TIME_T;UNICODE;_UNICODE;WIN64;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;BOOST_SIGNALS_NO_DEPRECATION_WARNING;_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS;_VC80_UPGRADE=0x0710;_USE_32BIT_TIME_T;UNICODE;_UNICODE;WIN64;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\grandchase\Server\Common;F:\grandchase\CommonFiles;F:\grandchase\Libs\InternalLib\KNCSDK_2015\include;F:\grandchase\Libs\ExternalLib\Boost\boost_1_67_0;F:\grandchase\Libs\ExternalLib\apache-log4cxx-0.10.0\src\main\include;F:\grandchase\Libs\ExternalLib\apr-1.7.0\include;F:\grandchase\Libs\ExternalLib\apr-util-1.6.1\include;F:\grandchase\Libs\ExternalLib\IntelTBB\tbb2019_20190410oss\include;F:\grandchase\Libs\ExternalLib\Serializer;F:\grandchase\Libs\ExternalLib\Thread;F:\grandchase\Client\NewPatcher;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\grandchase\Server\Common;F:\grandchase\CommonFiles;F:\grandchase\Libs\InternalLib\KNCSDK_2015\include;F:\grandchase\Libs\ExternalLib\Boost\boost_1_67_0;F:\grandchase\Libs\ExternalLib\apache-log4cxx-0.10.0\src\main\include;F:\grandchase\Libs\ExternalLib\apr-1.7.0\include;F:\grandchase\Libs\ExternalLib\apr-util-1.6.1\include;F:\grandchase\Libs\ExternalLib\IntelTBB\tbb2019_20190410oss\include;F:\grandchase\Libs\ExternalLib\Serializer;F:\grandchase\Libs\ExternalLib\Thread;F:\grandchase\Client\NewPatcher;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\grandchase\Server\Common;F:\grandchase\CommonFiles;F:\grandchase\Libs\InternalLib\KNCSDK_2015\include;F:\grandchase\Libs\ExternalLib\Boost\boost_1_67_0;F:\grandchase\Libs\ExternalLib\apache-log4cxx-0.10.0\src\main\include;F:\grandchase\Libs\ExternalLib\apr-1.7.0\include;F:\grandchase\Libs\ExternalLib\apr-util-1.6.1\include;F:\grandchase\Libs\ExternalLib\IntelTBB\tbb2019_20190410oss\include;F:\grandchase\Libs\ExternalLib\Serializer;F:\grandchase\Libs\ExternalLib\Thread;F:\grandchase\Client\NewPatcher;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4819;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>"stdafx.h"</PrecompiledHeaderFile>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;BOOST_SIGNALS_NO_DEPRECATION_WARNING;_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS;_VC80_UPGRADE=0x0710;_USE_32BIT_TIME_T;UNICODE;_UNICODE;WIN64;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;BOOST_SIGNALS_NO_DEPRECATION_WARNING;_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS;_VC80_UPGRADE=0x0710;_USE_32BIT_TIME_T;UNICODE;_UNICODE;WIN64;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\grandchase\Server\Common;F:\grandchase\CommonFiles;F:\grandchase\Libs\InternalLib\KNCSDK_2015\include;F:\grandchase\Libs\ExternalLib\Boost\boost_1_67_0;F:\grandchase\Libs\ExternalLib\apache-log4cxx-0.10.0\src\main\include;F:\grandchase\Libs\ExternalLib\apr-1.7.0\include;F:\grandchase\Libs\ExternalLib\apr-util-1.6.1\include;F:\grandchase\Libs\ExternalLib\IntelTBB\tbb2019_20190410oss\include;F:\grandchase\Libs\ExternalLib\Serializer;F:\grandchase\Libs\ExternalLib\Thread;F:\grandchase\Client\NewPatcher;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\grandchase\Server\Common;F:\grandchase\CommonFiles;F:\grandchase\Libs\InternalLib\KNCSDK_2015\include;F:\grandchase\Libs\ExternalLib\Boost\boost_1_67_0;F:\grandchase\Libs\ExternalLib\apache-log4cxx-0.10.0\src\main\include;F:\grandchase\Libs\ExternalLib\apr-1.7.0\include;F:\grandchase\Libs\ExternalLib\apr-util-1.6.1\include;F:\grandchase\Libs\ExternalLib\IntelTBB\tbb2019_20190410oss\include;F:\grandchase\Libs\ExternalLib\Serializer;F:\grandchase\Libs\ExternalLib\Thread;F:\grandchase\Client\NewPatcher;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\grandchase\Server\Common;F:\grandchase\CommonFiles;F:\grandchase\Libs\InternalLib\KNCSDK_2015\include;F:\grandchase\Libs\ExternalLib\Boost\boost_1_67_0;F:\grandchase\Libs\ExternalLib\apache-log4cxx-0.10.0\src\main\include;F:\grandchase\Libs\ExternalLib\apr-1.7.0\include;F:\grandchase\Libs\ExternalLib\apr-util-1.6.1\include;F:\grandchase\Libs\ExternalLib\IntelTBB\tbb2019_20190410oss\include;F:\grandchase\Libs\ExternalLib\Serializer;F:\grandchase\Libs\ExternalLib\Thread;F:\grandchase\Client\NewPatcher;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4819;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>"stdafx.h"</PrecompiledHeaderFile>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;BOOST_SIGNALS_NO_DEPRECATION_WARNING;_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS;_VC80_UPGRADE=0x0710;_USE_32BIT_TIME_T;UNICODE;_UNICODE;WIN64;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;BOOST_SIGNALS_NO_DEPRECATION_WARNING;_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS;_VC80_UPGRADE=0x0710;_USE_32BIT_TIME_T;UNICODE;_UNICODE;WIN64;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\grandchase\Server\Common;F:\grandchase\CommonFiles;F:\grandchase\Libs\InternalLib\KNCSDK_2015\include;F:\grandchase\Libs\ExternalLib\Boost\boost_1_67_0;F:\grandchase\Libs\ExternalLib\apache-log4cxx-0.10.0\src\main\include;F:\grandchase\Libs\ExternalLib\apr-1.7.0\include;F:\grandchase\Libs\ExternalLib\apr-util-1.6.1\include;F:\grandchase\Libs\ExternalLib\IntelTBB\tbb2019_20190410oss\include;F:\grandchase\Libs\ExternalLib\Serializer;F:\grandchase\Libs\ExternalLib\Thread;F:\grandchase\Client\NewPatcher;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\grandchase\Server\Common;F:\grandchase\CommonFiles;F:\grandchase\Libs\InternalLib\KNCSDK_2015\include;F:\grandchase\Libs\ExternalLib\Boost\boost_1_67_0;F:\grandchase\Libs\ExternalLib\apache-log4cxx-0.10.0\src\main\include;F:\grandchase\Libs\ExternalLib\apr-1.7.0\include;F:\grandchase\Libs\ExternalLib\apr-util-1.6.1\include;F:\grandchase\Libs\ExternalLib\IntelTBB\tbb2019_20190410oss\include;F:\grandchase\Libs\ExternalLib\Serializer;F:\grandchase\Libs\ExternalLib\Thread;F:\grandchase\Client\NewPatcher;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\grandchase\Client\NewPatcher\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/grandchase/Client/NewPatcher/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/grandchase -BF:/grandchase/build --check-stamp-file F:/grandchase/build/Client/NewPatcher/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\grandchase\build\Client\NewPatcher\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/grandchase/Client/NewPatcher/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/grandchase -BF:/grandchase/build --check-stamp-file F:/grandchase/build/Client/NewPatcher/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\grandchase\build\Client\NewPatcher\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/grandchase/Client/NewPatcher/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/grandchase -BF:/grandchase/build --check-stamp-file F:/grandchase/build/Client/NewPatcher/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\grandchase\build\Client\NewPatcher\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/grandchase/Client/NewPatcher/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/grandchase -BF:/grandchase/build --check-stamp-file F:/grandchase/build/Client/NewPatcher/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\grandchase\build\Client\NewPatcher\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\CYHJoin.h" />
+    <ClCompile Include="F:\grandchase\Client\NewPatcher\ColorStatic.cpp" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\ColorStatic.h" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\DSetup.h" />
+    <ClCompile Include="F:\grandchase\Client\NewPatcher\DownLoadDlg.cpp" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\DownLoadDlg.h" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\Drawgdix.h" />
+    <ClCompile Include="F:\grandchase\Client\NewPatcher\GCCommonFunc.cpp" />
+    <ClCompile Include="F:\grandchase\Client\NewPatcher\GCDllLoader.cpp" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\GCDllLoader.h" />
+    <ClCompile Include="F:\grandchase\Client\NewPatcher\GCDownLoadDlg.cpp" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\GCDownLoadDlg.h" />
+    <ClCompile Include="F:\grandchase\Client\NewPatcher\GCGlobalValue.cpp" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\GCGlobalValue.h" />
+    <ClCompile Include="F:\grandchase\Client\NewPatcher\GCGridPatcherDlg.cpp" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\GCGridPatcherDlg.h" />
+    <ClCompile Include="F:\grandchase\Client\NewPatcher\GCHtmlView.cpp" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\GCHtmlView.h" />
+    <ClCompile Include="F:\grandchase\Client\NewPatcher\GCMainMenuDlg.cpp" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\GCMainMenuDlg.h" />
+    <ClCompile Include="F:\grandchase\Client\NewPatcher\GCPatcher.cpp" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\GCPatcher.h" />
+    <ClCompile Include="F:\grandchase\Client\NewPatcher\GCPatcherBackDlg.cpp" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\GCPatcherBackDlg.h" />
+    <ClCompile Include="F:\grandchase\Client\NewPatcher\GCPatcherDlg.cpp" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\GCPatcherDlg.h" />
+    <ClCompile Include="F:\grandchase\Client\NewPatcher\GCPatcherStr.cpp" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\GCPatcherStr.h" />
+    <ClCompile Include="F:\grandchase\Client\NewPatcher\GCRgnDlg.CPP" />
+    <None Include="F:\grandchase\Client\NewPatcher\GCRgnDlg.H">
+    </None>
+    <ClCompile Include="F:\grandchase\Client\NewPatcher\GCServerDlg.cpp" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\GCServerDlg.h" />
+    <ClCompile Include="F:\grandchase\Client\NewPatcher\GCStartBtnDlg.cpp" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\GCStartBtnDlg.h" />
+    <ClCompile Include="F:\grandchase\Client\NewPatcher\GCSystemBtnDlg.cpp" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\GCSystemBtnDlg.h" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\GridInclude\GridLoad_Define.h" />
+    <ClCompile Include="F:\grandchase\Client\NewPatcher\IniReader.cpp" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\IniReader.h" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\KAssert.h" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\KCSLockType.h" />
+    <ClCompile Include="F:\grandchase\Client\NewPatcher\KGCStringLoader.cpp" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\KGCStringLoader.h" />
+    <ClCompile Include="F:\grandchase\Client\NewPatcher\KLoginDlg.cpp" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\KLoginDlg.h" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\KPreBlock.h" />
+    <ClCompile Include="F:\grandchase\Client\NewPatcher\KProgressCtrl.cpp" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\KProgressCtrl.h" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\KStateInfo.h" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\KncCrashRpt.h" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\MailMIMEHeader.h" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\MailSMTPHeader.h" />
+    <ClCompile Include="F:\grandchase\Client\NewPatcher\NBitmapButton.cpp" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\NBitmapButton.h" />
+    <ClCompile Include="F:\grandchase\Client\NewPatcher\NetError.cpp" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\NetError.h" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\NetError_def.h" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\NetError_def_br.h" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\NetError_def_br_old.h" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\NetError_def_cn.h" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\NetError_def_en.h" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\NetError_def_eu.h" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\NetError_def_hk.h" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\NetError_def_id.h" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\NetError_def_sa.h" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\NetError_def_th.h" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\NetError_def_tw.h" />
+    <ClCompile Include="F:\grandchase\Client\NewPatcher\PatchCore\Registry.cpp" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\PatchCore\Registry.h" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\PatchCore\ThreadDefs.h" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\PngWindow\PSPTypes.h" />
+    <ClCompile Include="F:\grandchase\Client\NewPatcher\PngWindow\setPngWnd.cpp" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\PngWindow\setPngWnd.h" />
+    <ClCompile Include="F:\grandchase\Client\NewPatcher\StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">'stdafx.h'</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">'stdafx.h'</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">'stdafx.h'</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">'stdafx.h'</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\StdAfx.h" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\Thread\Locker.h" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\bugtrapheader_fordll.h" />
+    <ClCompile Include="F:\grandchase\Client\NewPatcher\curlsession.cpp" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\curlsession.h" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\define.h" />
+    <ClCompile Include="F:\grandchase\Client\NewPatcher\globalfunction.cpp" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\globalfunction.h" />
+    <ClCompile Include="F:\grandchase\Client\NewPatcher\patch.cpp" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\patch.h" />
+    <ClInclude Include="F:\grandchase\Client\NewPatcher\resource.h" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="F:\grandchase\build\ZERO_CHECK.vcxproj">
+      <Project>{3D4B7A87-A741-3D83-AB11-0D3C697A4926}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

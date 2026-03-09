@@ -1,5 +1,5 @@
 #include ".\logmanager.h"
-#include <dbg/dbg.hpp>
+#include <dbg.hpp>
 #include "Log4.h"
 //FILE_NAME_FOR_LOG
 

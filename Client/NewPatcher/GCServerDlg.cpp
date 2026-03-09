@@ -7,6 +7,7 @@
 #include "NBitmapButton.h"
 #include "patch.h"
 #include "GCGlobalValue.h"
+#include "KGCStringLoader.h"  // For GCStrWideToChar function
 
 // CGCServerDlg 대화 상자입니다.
 

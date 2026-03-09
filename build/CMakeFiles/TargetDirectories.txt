@@ -1,0 +1,11 @@
+F:/grandchase/build/CMakeFiles/external_libs.dir
+F:/grandchase/build/CMakeFiles/ALL_BUILD.dir
+F:/grandchase/build/CMakeFiles/ZERO_CHECK.dir
+F:/grandchase/build/Server/CMakeFiles/ServerCommon.dir
+F:/grandchase/build/Server/GameClient/CMakeFiles/GameClientServer.dir
+F:/grandchase/build/Server/AgentServer/CMakeFiles/AgentServer.dir
+F:/grandchase/build/Server/GameServer/CMakeFiles/GameServer.dir
+F:/grandchase/build/Server/WGameServer/CMakeFiles/WGameServer.dir
+F:/grandchase/build/Server/WCenterServer/CMakeFiles/WCenterServer.dir
+F:/grandchase/build/Client/CMakeFiles/GameClientApp.dir
+F:/grandchase/build/Client/NewPatcher/CMakeFiles/NewPatcher.dir

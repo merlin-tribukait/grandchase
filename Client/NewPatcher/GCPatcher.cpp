@@ -13,6 +13,7 @@
 #include "GCDllLoader.h"
 #include "KLoginDlg.h"
 #include "XTrap4Launcher.h"
+#include "KGCStringLoader.h"  // For KGCStringLoader class
 #include "patch.h"
 #include "../NMCrypt.h"
 #include "GCPatcherBackDlg.h"

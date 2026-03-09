@@ -9,6 +9,7 @@
 #include "GCGlobalValue.h"
 #include "define.h"
 #include "GCPatcherStr.h"
+#include "KGCStringLoader.h"  // Added from header
 
 
 extern void WriteLogFile(std::string strMsg,bool bNewFile = false);

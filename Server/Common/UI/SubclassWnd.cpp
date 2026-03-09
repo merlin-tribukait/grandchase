@@ -269,7 +269,11 @@ BOOL CSubclassWnd::SubclassWindow(HWND hWnd, BOOL bReflect)
 
 	m_thunk.Init(WindowProc, this);
 	WNDPROC pProc = (WNDPROC)&(m_thunk.thunk);
+#ifdef _WIN64
+	WNDPROC pfnWndProc = (WNDPROC)::SetWindowLongPtr(hWnd, GWLP_WNDPROC, (LONG_PTR)pProc);
+#else
 	WNDPROC pfnWndProc = (WNDPROC)::SetWindowLong(hWnd, GWL_WNDPROC, (LONG)pProc);
+#endif
 	if (pfnWndProc == NULL)
 		return FALSE;
 
@@ -425,9 +429,15 @@ BOOL CSubclassWnd::ProcessWindowMessage(UINT message, WPARAM wParam, LPARAM lPar
 				else
 				{
 					WNDPROC pOurProc = (WNDPROC)&(m_thunk.thunk);
+#ifdef _WIN64
+					WNDPROC pActiveProc = (WNDPROC)::GetWindowLongPtr(m_hWnd, GWLP_WNDPROC);
+					ASSERT(pOurProc == pActiveProc);
+					if (!::SetWindowLongPtr(m_hWnd, GWLP_WNDPROC, (LONG_PTR)m_pfnSuperWindowProc))
+#else
 					WNDPROC pActiveProc = (WNDPROC)::GetWindowLong(m_hWnd, GWL_WNDPROC);
 					ASSERT(pOurProc == pActiveProc);
 					if (!::SetWindowLong(m_hWnd, GWL_WNDPROC, (LONG)m_pfnSuperWindowProc))
+#endif
 						lResult = NULL;
 					else
 					{

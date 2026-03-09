@@ -1,0 +1,11 @@
+#ifndef NETERROR_DEF_H
+#define NETERROR_DEF_H
+
+// Network error definitions
+#define NET_SUCCESS 0
+#define NET_ERROR_CONNECTION_FAILED -1
+#define NET_ERROR_TIMEOUT -2
+#define NET_ERROR_INVALID_DATA -3
+#define NET_ERROR_SERVER_DISCONNECTED -4
+
+#endif // NETERROR_DEF_H

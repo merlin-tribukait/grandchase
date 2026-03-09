@@ -8,6 +8,7 @@
 #include "patch.h"
 #include "GCGlobalValue.h"
 #include "KStateInfo.h"
+#include "KGCStringLoader.h"  // For KGCStringLoader class
 
 
 

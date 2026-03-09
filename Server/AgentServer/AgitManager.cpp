@@ -1,6 +1,6 @@
 #include "AGNetLayer.h"
 #include "AgitManager.h"
-#include <dbg/dbg.hpp>
+#include "dbg.hpp"
 #include <boost/mem_fn.hpp>
 #include "Lua/KLuaManager.h"
 #include "NetError.h"

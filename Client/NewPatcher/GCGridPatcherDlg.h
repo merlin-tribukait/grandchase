@@ -13,12 +13,16 @@
 #if _MSC_VER > 1000
 #pragma once
 #endif // _MSC_VER > 1000
+
+// Forward declarations
+class KGCStringLoader;
+
 #include "stdafx.h"
 #include "GCHtmlView.h"
 #include "KProgressCtrl.h"
 #include "ColorStatic.h"
 #include "NBitmapButton.h"
-#include "kgcstringloader.h"
+// #include "kgcstringloader.h"  // Moved to .cpp file
 #include "afxwin.h"
 #include "resource.h"
 #include "patch.h"

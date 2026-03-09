@@ -11,7 +11,7 @@
 #include <ShlObj.h>
 
 
-#pragma comment( lib, "Dsetup.lib" )
+//#pragma comment( lib, "Dsetup.lib" )
 
 
 extern void GetCurrentPath( std::string& strPath_ );

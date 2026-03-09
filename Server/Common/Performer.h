@@ -9,6 +9,15 @@
 #include "Thread/Locker.h"
 #include "Log4.h"
 
+// Missing RTTI macros
+#define NiDeclareRTTI \
+public: \
+    virtual const char* GetRuntimeClassName() const { return "KPerformer"; }
+
+#define DeclToStringW \
+public: \
+    std::wstring ToStringW() const { return L"KPerformer"; }
+
 class KPerformer : public KSimObject
 {
 	NiDeclareRTTI;

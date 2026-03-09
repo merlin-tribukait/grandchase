@@ -474,15 +474,15 @@
 #endif
 
 #ifdef _DEBUG
-#pragma comment( lib, "d3dx9d" )
+//#pragma comment( lib, "d3dx9d" )
 #else
-#pragma comment( lib, "d3dx9" )
+//#pragma comment( lib, "d3dx9" )
 #endif// _DEBUG
-#pragma comment( lib, "d3d9" )
+//#pragma comment( lib, "d3d9" )
 #if defined( CHECK_DIRECTX_VERSION )
-#pragma comment( lib, "dxerr" )
+//#pragma comment( lib, "dxerr" )
 #else
-#pragma comment( lib, "dxerr9" )
+//#pragma comment( lib, "dxerr9" )
 #endif
 #define D3D_H           <d3d9.h>
 #define D3DX_H          <d3dx9.h>

@@ -1,0 +1,15 @@
+{
+	"InstallScripts" : 
+	[
+		"F:/grandchase/build/cmake_install.cmake",
+		"F:/grandchase/build/Server/cmake_install.cmake",
+		"F:/grandchase/build/Server/GameClient/cmake_install.cmake",
+		"F:/grandchase/build/Server/AgentServer/cmake_install.cmake",
+		"F:/grandchase/build/Server/GameServer/cmake_install.cmake",
+		"F:/grandchase/build/Server/WGameServer/cmake_install.cmake",
+		"F:/grandchase/build/Server/WCenterServer/cmake_install.cmake",
+		"F:/grandchase/build/Client/cmake_install.cmake",
+		"F:/grandchase/build/Client/NewPatcher/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

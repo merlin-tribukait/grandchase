@@ -68,11 +68,29 @@ void Dump()
 */
 //}} kkurrung.
 
+#define COPYCON_ASSIGNOP( type, t )     type(const type& t) { *this = t; } \
+    type& operator=(const type& t)
+
+#define CON_COPYCON_ASSIGNOP( type, t ) type() {} \
+    COPYCON_ASSIGNOP( type, t )
+
 #include <map>
 #include <string>
-#include "../../CommonFiles/CommonPacket.h" // CON_COPYCON_ASSIGNOP
-#include <KncUtil.h> // IN, OUT
-#include <Thread/Locker.h>
+#include <vector>
+#include <windows.h>
+
+// Stub for KncCriticalSection
+class KncCriticalSection {
+public:
+    KncCriticalSection() {}
+    ~KncCriticalSection() {}
+    void Lock() {}
+    void Unlock() {}
+};
+
+// Stub for IN/OUT macros
+#define IN
+#define OUT
 
 class KStringTable
 {

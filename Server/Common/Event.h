@@ -1,12 +1,15 @@
 #pragma once
 
+#include "EventDefines.h"
+#include <memory>
+#include <boost/noncopyable.hpp>
 #include <Serializer/SerBuffer.h>
 #include "KncSmartPtr.h"
 #include "RTTI.h"
-#include <dbg/dbg.hpp>
+#include <dbg.hpp>
 #include <ToString.h>
-#include <boost/utility.hpp>
 
+// Forward declaration
 SmartPointer(KEvent);
 
 class KEvent;

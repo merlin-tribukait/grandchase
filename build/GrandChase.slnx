@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+	<Configurations>
+		<BuildType Name="Debug"/>
+		<BuildType Name="Release"/>
+		<BuildType Name="MinSizeRel"/>
+		<BuildType Name="RelWithDebInfo"/>
+		<Platform Name="x64"/>
+	</Configurations>
+	<Project Path="ALL_BUILD.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="07b75741-8c96-3e53-b029-924fe3b985e8" DefaultStartup="true">
+		<BuildDependency Project="Server/AgentServer/AgentServer.vcxproj"/>
+		<BuildDependency Project="Client/GameClientApp.vcxproj"/>
+		<BuildDependency Project="Server/GameClient/GameClientServer.vcxproj"/>
+		<BuildDependency Project="Server/GameServer/GameServer.vcxproj"/>
+		<BuildDependency Project="Client/NewPatcher/NewPatcher.vcxproj"/>
+		<BuildDependency Project="Server/ServerCommon.vcxproj"/>
+		<BuildDependency Project="Server/WCenterServer/WCenterServer.vcxproj"/>
+		<BuildDependency Project="Server/WGameServer/WGameServer.vcxproj"/>
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="external_libs.vcxproj"/>
+		<Build Solution="Debug|*" Project="false"/>
+		<Build Solution="Release|*" Project="false"/>
+		<Build Solution="MinSizeRel|*" Project="false"/>
+		<Build Solution="RelWithDebInfo|*" Project="false"/>
+	</Project>
+	<Project Path="Server/AgentServer/AgentServer.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="b145f78d-fe69-34b8-a904-d12e1fb68370">
+		<BuildDependency Project="Server/ServerCommon.vcxproj"/>
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="Client/GameClientApp.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="6b721376-edde-3834-bde9-182f3f637510">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="Server/GameClient/GameClientServer.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="31c3ea30-e278-37ed-be23-7cb3b8f06a62">
+		<BuildDependency Project="Server/ServerCommon.vcxproj"/>
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="Server/GameServer/GameServer.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="3bc1078b-d819-3199-8bd1-47319af5a029">
+		<BuildDependency Project="Server/ServerCommon.vcxproj"/>
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="Client/NewPatcher/NewPatcher.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="3a7bf273-0fea-3423-9aba-ee0e29ff1e55">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="Server/ServerCommon.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="da491f56-8faa-3e3f-906e-757a4d6d726b">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="Server/WCenterServer/WCenterServer.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="0560a30b-4e98-34a3-a726-7a043ca40bf6">
+		<BuildDependency Project="Server/ServerCommon.vcxproj"/>
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="Server/WGameServer/WGameServer.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="3ab7182a-4c05-3aa1-88b8-5ed56b05ea90">
+		<BuildDependency Project="Server/ServerCommon.vcxproj"/>
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="ZERO_CHECK.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="3d4b7a87-a741-3d83-ab11-0d3c697a4926"/>
+	<Project Path="external_libs.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="4b878978-84d7-3dda-882e-618fb3db2ae1">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+</Solution>

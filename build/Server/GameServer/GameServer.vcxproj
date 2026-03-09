@@ -1,0 +1,893 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3BC1078B-D819-3199-8BD1-47319AF5A029}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>GameServer</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\grandchase\build\Server\GameServer\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GameServer.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GameServer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\grandchase\build\Server\GameServer\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GameServer.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GameServer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\grandchase\build\Server\GameServer\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GameServer.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GameServer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\grandchase\build\Server\GameServer\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GameServer.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GameServer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\grandchase\Server\Common;F:\grandchase\CommonFiles;F:\grandchase\Libs\InternalLib\KNCSDK_2015\include;F:\grandchase\Libs\ExternalLib\Boost\boost_1_67_0;F:\grandchase\Libs\ExternalLib\apache-log4cxx-0.10.0\src\main\include;F:\grandchase\Libs\ExternalLib\apr-1.7.0\include;F:\grandchase\Libs\ExternalLib\apr-util-1.6.1\include;F:\grandchase\Libs\ExternalLib\IntelTBB\tbb2019_20190410oss\include;F:\grandchase\Libs\ExternalLib\Serializer;F:\grandchase\Libs\ExternalLib\Thread;F:\grandchase\Server\GameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4819;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>"stdafx.h"</PrecompiledHeaderFile>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;BOOST_SIGNALS_NO_DEPRECATION_WARNING;_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS;_VC80_UPGRADE=0x0710;UNICODE;_UNICODE;WIN64;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;BOOST_SIGNALS_NO_DEPRECATION_WARNING;_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS;_VC80_UPGRADE=0x0710;UNICODE;_UNICODE;WIN64;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\grandchase\Server\Common;F:\grandchase\CommonFiles;F:\grandchase\Libs\InternalLib\KNCSDK_2015\include;F:\grandchase\Libs\ExternalLib\Boost\boost_1_67_0;F:\grandchase\Libs\ExternalLib\apache-log4cxx-0.10.0\src\main\include;F:\grandchase\Libs\ExternalLib\apr-1.7.0\include;F:\grandchase\Libs\ExternalLib\apr-util-1.6.1\include;F:\grandchase\Libs\ExternalLib\IntelTBB\tbb2019_20190410oss\include;F:\grandchase\Libs\ExternalLib\Serializer;F:\grandchase\Libs\ExternalLib\Thread;F:\grandchase\Server\GameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\grandchase\Server\Common;F:\grandchase\CommonFiles;F:\grandchase\Libs\InternalLib\KNCSDK_2015\include;F:\grandchase\Libs\ExternalLib\Boost\boost_1_67_0;F:\grandchase\Libs\ExternalLib\apache-log4cxx-0.10.0\src\main\include;F:\grandchase\Libs\ExternalLib\apr-1.7.0\include;F:\grandchase\Libs\ExternalLib\apr-util-1.6.1\include;F:\grandchase\Libs\ExternalLib\IntelTBB\tbb2019_20190410oss\include;F:\grandchase\Libs\ExternalLib\Serializer;F:\grandchase\Libs\ExternalLib\Thread;F:\grandchase\Server\GameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\Debug\ServerCommon.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;Normaliz.lib;Crypt32.lib;Wldap32.lib;aprutil-1.lib;apr-1.lib;log4cxx.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>F:/grandchase/build/Server/GameServer/Debug/GameServer.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>F:/grandchase/build/Server/GameServer/Debug/GameServer.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\grandchase\Server\Common;F:\grandchase\CommonFiles;F:\grandchase\Libs\InternalLib\KNCSDK_2015\include;F:\grandchase\Libs\ExternalLib\Boost\boost_1_67_0;F:\grandchase\Libs\ExternalLib\apache-log4cxx-0.10.0\src\main\include;F:\grandchase\Libs\ExternalLib\apr-1.7.0\include;F:\grandchase\Libs\ExternalLib\apr-util-1.6.1\include;F:\grandchase\Libs\ExternalLib\IntelTBB\tbb2019_20190410oss\include;F:\grandchase\Libs\ExternalLib\Serializer;F:\grandchase\Libs\ExternalLib\Thread;F:\grandchase\Server\GameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4819;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>"stdafx.h"</PrecompiledHeaderFile>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;BOOST_SIGNALS_NO_DEPRECATION_WARNING;_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS;_VC80_UPGRADE=0x0710;UNICODE;_UNICODE;WIN64;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;BOOST_SIGNALS_NO_DEPRECATION_WARNING;_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS;_VC80_UPGRADE=0x0710;UNICODE;_UNICODE;WIN64;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\grandchase\Server\Common;F:\grandchase\CommonFiles;F:\grandchase\Libs\InternalLib\KNCSDK_2015\include;F:\grandchase\Libs\ExternalLib\Boost\boost_1_67_0;F:\grandchase\Libs\ExternalLib\apache-log4cxx-0.10.0\src\main\include;F:\grandchase\Libs\ExternalLib\apr-1.7.0\include;F:\grandchase\Libs\ExternalLib\apr-util-1.6.1\include;F:\grandchase\Libs\ExternalLib\IntelTBB\tbb2019_20190410oss\include;F:\grandchase\Libs\ExternalLib\Serializer;F:\grandchase\Libs\ExternalLib\Thread;F:\grandchase\Server\GameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\grandchase\Server\Common;F:\grandchase\CommonFiles;F:\grandchase\Libs\InternalLib\KNCSDK_2015\include;F:\grandchase\Libs\ExternalLib\Boost\boost_1_67_0;F:\grandchase\Libs\ExternalLib\apache-log4cxx-0.10.0\src\main\include;F:\grandchase\Libs\ExternalLib\apr-1.7.0\include;F:\grandchase\Libs\ExternalLib\apr-util-1.6.1\include;F:\grandchase\Libs\ExternalLib\IntelTBB\tbb2019_20190410oss\include;F:\grandchase\Libs\ExternalLib\Serializer;F:\grandchase\Libs\ExternalLib\Thread;F:\grandchase\Server\GameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\Release\ServerCommon.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;Normaliz.lib;Crypt32.lib;Wldap32.lib;aprutil-1.lib;apr-1.lib;log4cxx.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>F:/grandchase/build/Server/GameServer/Release/GameServer.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>F:/grandchase/build/Server/GameServer/Release/GameServer.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\grandchase\Server\Common;F:\grandchase\CommonFiles;F:\grandchase\Libs\InternalLib\KNCSDK_2015\include;F:\grandchase\Libs\ExternalLib\Boost\boost_1_67_0;F:\grandchase\Libs\ExternalLib\apache-log4cxx-0.10.0\src\main\include;F:\grandchase\Libs\ExternalLib\apr-1.7.0\include;F:\grandchase\Libs\ExternalLib\apr-util-1.6.1\include;F:\grandchase\Libs\ExternalLib\IntelTBB\tbb2019_20190410oss\include;F:\grandchase\Libs\ExternalLib\Serializer;F:\grandchase\Libs\ExternalLib\Thread;F:\grandchase\Server\GameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4819;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>"stdafx.h"</PrecompiledHeaderFile>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;BOOST_SIGNALS_NO_DEPRECATION_WARNING;_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS;_VC80_UPGRADE=0x0710;UNICODE;_UNICODE;WIN64;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;BOOST_SIGNALS_NO_DEPRECATION_WARNING;_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS;_VC80_UPGRADE=0x0710;UNICODE;_UNICODE;WIN64;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\grandchase\Server\Common;F:\grandchase\CommonFiles;F:\grandchase\Libs\InternalLib\KNCSDK_2015\include;F:\grandchase\Libs\ExternalLib\Boost\boost_1_67_0;F:\grandchase\Libs\ExternalLib\apache-log4cxx-0.10.0\src\main\include;F:\grandchase\Libs\ExternalLib\apr-1.7.0\include;F:\grandchase\Libs\ExternalLib\apr-util-1.6.1\include;F:\grandchase\Libs\ExternalLib\IntelTBB\tbb2019_20190410oss\include;F:\grandchase\Libs\ExternalLib\Serializer;F:\grandchase\Libs\ExternalLib\Thread;F:\grandchase\Server\GameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\grandchase\Server\Common;F:\grandchase\CommonFiles;F:\grandchase\Libs\InternalLib\KNCSDK_2015\include;F:\grandchase\Libs\ExternalLib\Boost\boost_1_67_0;F:\grandchase\Libs\ExternalLib\apache-log4cxx-0.10.0\src\main\include;F:\grandchase\Libs\ExternalLib\apr-1.7.0\include;F:\grandchase\Libs\ExternalLib\apr-util-1.6.1\include;F:\grandchase\Libs\ExternalLib\IntelTBB\tbb2019_20190410oss\include;F:\grandchase\Libs\ExternalLib\Serializer;F:\grandchase\Libs\ExternalLib\Thread;F:\grandchase\Server\GameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\MinSizeRel\ServerCommon.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;Normaliz.lib;Crypt32.lib;Wldap32.lib;aprutil-1.lib;apr-1.lib;log4cxx.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>F:/grandchase/build/Server/GameServer/MinSizeRel/GameServer.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>F:/grandchase/build/Server/GameServer/MinSizeRel/GameServer.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\grandchase\Server\Common;F:\grandchase\CommonFiles;F:\grandchase\Libs\InternalLib\KNCSDK_2015\include;F:\grandchase\Libs\ExternalLib\Boost\boost_1_67_0;F:\grandchase\Libs\ExternalLib\apache-log4cxx-0.10.0\src\main\include;F:\grandchase\Libs\ExternalLib\apr-1.7.0\include;F:\grandchase\Libs\ExternalLib\apr-util-1.6.1\include;F:\grandchase\Libs\ExternalLib\IntelTBB\tbb2019_20190410oss\include;F:\grandchase\Libs\ExternalLib\Serializer;F:\grandchase\Libs\ExternalLib\Thread;F:\grandchase\Server\GameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4819;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>"stdafx.h"</PrecompiledHeaderFile>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;BOOST_SIGNALS_NO_DEPRECATION_WARNING;_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS;_VC80_UPGRADE=0x0710;UNICODE;_UNICODE;WIN64;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;BOOST_SIGNALS_NO_DEPRECATION_WARNING;_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS;_VC80_UPGRADE=0x0710;UNICODE;_UNICODE;WIN64;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\grandchase\Server\Common;F:\grandchase\CommonFiles;F:\grandchase\Libs\InternalLib\KNCSDK_2015\include;F:\grandchase\Libs\ExternalLib\Boost\boost_1_67_0;F:\grandchase\Libs\ExternalLib\apache-log4cxx-0.10.0\src\main\include;F:\grandchase\Libs\ExternalLib\apr-1.7.0\include;F:\grandchase\Libs\ExternalLib\apr-util-1.6.1\include;F:\grandchase\Libs\ExternalLib\IntelTBB\tbb2019_20190410oss\include;F:\grandchase\Libs\ExternalLib\Serializer;F:\grandchase\Libs\ExternalLib\Thread;F:\grandchase\Server\GameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\grandchase\Server\Common;F:\grandchase\CommonFiles;F:\grandchase\Libs\InternalLib\KNCSDK_2015\include;F:\grandchase\Libs\ExternalLib\Boost\boost_1_67_0;F:\grandchase\Libs\ExternalLib\apache-log4cxx-0.10.0\src\main\include;F:\grandchase\Libs\ExternalLib\apr-1.7.0\include;F:\grandchase\Libs\ExternalLib\apr-util-1.6.1\include;F:\grandchase\Libs\ExternalLib\IntelTBB\tbb2019_20190410oss\include;F:\grandchase\Libs\ExternalLib\Serializer;F:\grandchase\Libs\ExternalLib\Thread;F:\grandchase\Server\GameServer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\RelWithDebInfo\ServerCommon.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;Normaliz.lib;Crypt32.lib;Wldap32.lib;aprutil-1.lib;apr-1.lib;log4cxx.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>F:/grandchase/build/Server/GameServer/RelWithDebInfo/GameServer.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>F:/grandchase/build/Server/GameServer/RelWithDebInfo/GameServer.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\grandchase\Server\GameServer\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/grandchase/Server/GameServer/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/grandchase -BF:/grandchase/build --check-stamp-file F:/grandchase/build/Server/GameServer/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\grandchase\build\Server\GameServer\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/grandchase/Server/GameServer/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/grandchase -BF:/grandchase/build --check-stamp-file F:/grandchase/build/Server/GameServer/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\grandchase\build\Server\GameServer\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/grandchase/Server/GameServer/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/grandchase -BF:/grandchase/build --check-stamp-file F:/grandchase/build/Server/GameServer/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\grandchase\build\Server\GameServer\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/grandchase/Server/GameServer/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/grandchase -BF:/grandchase/build --check-stamp-file F:/grandchase/build/Server/GameServer/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\grandchase\build\Server\GameServer\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="F:\grandchase\Server\GameServer\AccumulateAttendance.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\AccumulateAttendance.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\Adventure.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\Adventure.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\AgentConnector.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\AgentConnector.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\AgentProxy.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\AgentProxy.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\AgitHelper.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\AgitHelper.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\AvoidOverlappingLottery.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\AvoidOverlappingLottery.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\BillDB.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\BillDB.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\BillingError.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\BillingError.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\BlockedAttackIP.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\BlockedAttackIP.h" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\BonusType.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\BuffDonation.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\BuffDonation.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\CPLStatistics.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\CPLStatistics.h" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\CPSSOLib.h" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\CacheData.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\Calendar.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\Calendar.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\CenterProxy.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\CenterProxy.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\ChangeWeaponManager.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\ChangeWeaponManager.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\Channel.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\Channel.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\ChannelDrop.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\ChannelDrop.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\ChannelManager.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\ChannelManager.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\ChannelTypeEvent.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\ChannelTypeEvent.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\CharDefault.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\CharDefault.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\CharPromotionSystem.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\CharPromotionSystem.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\CharSlotManager.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\CharSlotManager.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\CharacterGraduation.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\CharacterGraduation.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\CharacterPollManager.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\CharacterPollManager.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\CharismasPresent.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\CharismasPresent.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\CheckInStat.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\CheckInStat.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\ChoiceDrop.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\ChoiceDrop.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\ClientErr.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\ClientErr.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\ClientPing.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\ClientPing.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\CnConnector.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\CnConnector.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\CollectionManager.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\CollectionManager.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\ConnectionGiftBox.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\ConnectionGiftBox.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\CooperationEvent.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\CooperationEvent.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\CoupleSystem.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\CoupleSystem.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\DepotManager.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\DepotManager.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\DicePlay.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\DicePlay.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\DonationManager.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\DonationManager.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\DotaManager.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\DotaManager.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\DungeonEntrance.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\DungeonEntrance.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\DungeonManager.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\DungeonManager.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\DungeonRankManager.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\DungeonRankManager.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\EclipseCollect.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\EclipseCollect.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\EclipsePlot.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\EclipsePlot.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\EclipseTimeEvent.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\EclipseTimeEvent.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\EnchantStrong.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\EnchantStrong.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\EquipLvDown.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\EquipLvDown.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\ErrandManager.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\ErrandManager.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\Escort.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\Escort.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\EventDivideDispatcher.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\EventDivideDispatcher.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\EventDungeonManager.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\EventDungeonManager.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\EventMonsterManager.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\EventMonsterManager.h" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\EventType.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\EvtDBThread.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\EvtDBThread.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\FTPFactory.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\FTPFactory.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\FailRate.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\FailRate.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\FatigueSystem.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\FatigueSystem.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\GCHelper.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\GCHelper.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\GCItemConfig.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\GCItemConfig.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\GCPoint.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\GCPoint.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\GCSocketConsumeItem.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\GCSocketConsumeItem.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\GPCapsuleManager.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\GPCapsuleManager.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\GSDBLayer.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\GSDBLayer.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\GSDBThread.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\GSDBThread.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\GSDBThread2.cpp" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\GSDBThread3.cpp" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\GSDBThread4.cpp" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\GSDBThread5.cpp" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\GSDBThread6.cpp" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\GSDBThreadHelper.cpp" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\GSDBThreadHelper2.cpp" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\GSDBThreadHelper3.cpp" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\GSDBThreadHelper4.cpp" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\GSGash.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\GSGash.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\GSNetLayer.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\GSNetLayer.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\GSSimLayer.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\GSSimLayer.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\GWCEvent.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\GWCEvent.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\GWCSupport.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\GWCSupport.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\GachaLottery.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\GachaLottery.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\GachaManager.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\GachaManager.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\GachaPong.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\GachaPong.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\GambleBuyManager.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\GambleBuyManager.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\GameCouponManager.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\GameCouponManager.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\GameDrop.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\GameDrop.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\GameServer.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\GameServer.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\GashBilling.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\GashBilling.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\Gawibawibo.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\Gawibawibo.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\GetLimit.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\GetLimit.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\Guild.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\Guild.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\GuildManager.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\GuildManager.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\HSManager.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\HSManager.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\HeroDungeonManager.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\HeroDungeonManager.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\HeroItemUpgradeManager.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\HeroItemUpgradeManager.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\IPAdvantage.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\IPAdvantage.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\IndigoUtil.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\IndigoUtil.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\InfinityDungeon.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\InfinityDungeon.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\ItemBreakUp.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\ItemBreakUp.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\ItemCompose.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\ItemCompose.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\ItemContainer.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\ItemContainer.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\ItemLevelDecider.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\ItemLevelDecider.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\ItemLevelTable.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\ItemLevelTable.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\ItemManager.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\ItemManager.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\ItemTradeManager.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\ItemTradeManager.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\JobMissionGuide.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\JobMissionGuide.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\JumpingChar.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\JumpingChar.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\JustInTime.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\JustInTime.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\KStatPing.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\KStatPing.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\Kairo.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\Kairo.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\LevelResetEvent.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\LevelResetEvent.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\LoginOutStat.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\LoginOutStat.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\LookEquipment.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\LookEquipment.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\LoudMessage.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\LoudMessage.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\LunaNewYear.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\LunaNewYear.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\MagicBox.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\MagicBox.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\Main.cpp" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\Manufacture.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\Manufacture.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\ManufactureS3.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\ManufactureS3.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\MapStatistics.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\MapStatistics.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\MatchConnector.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\MatchConnector.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\MatchProxy.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\MatchProxy.h" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\Message.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\MiniGameRankManager.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\MiniGameRankManager.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\MissionEvent.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\MissionEvent.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\MissionGettableCondition.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\MissionGettableCondition.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\MissionInfo.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\MissionInfo.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\MissionManager.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\MissionManager.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\MissionPack.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\MissionPack.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\MonsterCardMix.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\MonsterCardMix.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\NCashBilling.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\NCashBilling.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\NCashEvent.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\NCashEvent.h" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\NCashEvent_def.h" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\NMNetCafeDLL.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\NMNetCafeManager.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\NMNetCafeManager.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\NewDonationManager.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\NewDonationManager.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\NpcGift.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\NpcGift.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\OlympicManager.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\OlympicManager.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\Oneaday.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\Oneaday.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\PVPMatchManager.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\PVPMatchManager.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\PayLetterBilling.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\PayLetterBilling.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\PayLetterEvent.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\PayLetterEvent.h" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\PayLetterEvent_def.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\PeriodNotice.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\PeriodNotice.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\PetGlyphMng.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\PetGlyphMng.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\PetHelper.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\PetHelper.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\PlantTree.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\PlantTree.h" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\PlayAuth.Connector.h" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\PlayAuth.ConnectorAPI.h" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\PlayAuth.ConnectorBase.h" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\PlayAuth.Environment.h" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\PlayAuth.Error.h" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\PlayAuth.Handles.h" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\PlayAuth.Info.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\PlayAuthManager.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\PlayAuthManager.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\PlayTimeStat.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\PlayTimeStat.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\PostConfig.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\PostConfig.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\PreHackingCheckManager.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\PreHackingCheckManager.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\PresentBox.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\PresentBox.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\QuizBingo.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\QuizBingo.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\RKTornado.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\RKTornado.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\Rainbow.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\Rainbow.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\RankManager.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\RankManager.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\RecomHelper.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\RecomHelper.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\RequierInfo.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\RequierInfo.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\ResultManager.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\ResultManager.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\ResultReward.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\ResultReward.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\RitasChristmas.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\RitasChristmas.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\Room.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\Room.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\RoomFSM.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\RoomFSM.h" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\RoomFSMInput_def.h" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\RoomFSMState_def.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\RoomManager.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\RoomManager.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\SHCheckPoint.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\SHCheckPoint.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\SP.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\SP.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\Santa.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\Santa.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\SealedChar.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\SealedChar.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\ServerBenefit.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\ServerBenefit.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\ShutdownUser.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\ShutdownUser.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\SignBoard.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\SignBoard.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\SkillManager.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\SkillManager.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\SocialCommerce.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\SocialCommerce.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\Socks.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\Socks.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\Songkran.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\Songkran.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\SpecialMonsterManager.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\SpecialMonsterManager.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\SpecialReward.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\SpecialReward.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\Sphinx.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\Sphinx.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\Square.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\Square.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\SquareManager.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\SquareManager.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\StageReward.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\StageReward.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\StatAgent.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\StatAgent.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\StatCharacter.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\StatCharacter.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\StatCharacterEquip.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\StatCharacterEquip.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\StatCoupleRoom.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\StatCoupleRoom.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\StatDeathMatch.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\StatDeathMatch.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\StatDisconnect.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\StatDisconnect.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\StatDungeon.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\StatDungeon.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\StatEmoticon.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\StatEmoticon.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\StatGP.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\StatGP.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\StatGameLoading.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\StatGameLoading.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\StatGameStartGap.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\StatGameStartGap.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\StatItemGet.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\StatItemGet.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\StatLeaveGame.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\StatLeaveGame.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\StatLoadingInfo.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\StatLoadingInfo.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\StatMiniGame.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\StatMiniGame.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\StatNetwork.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\StatNetwork.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\StatP2PCritical.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\StatP2PCritical.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\StatPvPPlayCharacter.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\StatPvPPlayCharacter.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\StatRoomJoin.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\StatRoomJoin.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\StatSpx.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\StatSpx.h" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\StatisticsID_def.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\StatisticsManager.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\StatisticsManager.h" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\StmOperator.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\StrengthManager.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\StrengthManager.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\SubjectManager.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\SubjectManager.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\SubscriptionManager.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\SubscriptionManager.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\Survey.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\Survey.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\SystemGuide.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\SystemGuide.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\SystemResourceManager.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\SystemResourceManager.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\TH_PayLetterBilling.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\TH_PayLetterBilling.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\TH_PayLetterEvent.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\TH_PayLetterEvent.h" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\TH_PayLetterEvent_def.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\TimeDrop.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\TimeDrop.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\TimeEventManager.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\TimeEventManager.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\TongDonation.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\TongDonation.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\UnityBuild\United.cpp" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\UnityBuild\United10.cpp" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\UnityBuild\United11.cpp" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\UnityBuild\United12.cpp" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\UnityBuild\United13.cpp" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\UnityBuild\United14.cpp" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\UnityBuild\United15.cpp" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\UnityBuild\United16.cpp" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\UnityBuild\United17.cpp" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\UnityBuild\United18.cpp" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\UnityBuild\United19.cpp" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\UnityBuild\United2.cpp" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\UnityBuild\United3.cpp" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\UnityBuild\United4.cpp" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\UnityBuild\United5.cpp" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\UnityBuild\United6.cpp" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\UnityBuild\United7.cpp" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\UnityBuild\United8.cpp" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\UnityBuild\United9.cpp" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\UpdatePlanManager.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\UpdatePlanManager.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\User.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\User.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\User10.cpp" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\User2.cpp" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\User3.cpp" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\User4.cpp" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\User5.cpp" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\User6.cpp" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\User6_2.cpp" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\User8.cpp" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\User9.cpp" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\UserAchievement.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\UserAchievement.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\UserBillboard.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\UserBillboard.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\UserEvent.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\UserEvent.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\UserEventChecker.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\UserEventChecker.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\UserFSM.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\UserFSM.h" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\UserFSMInput_def.h" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\UserFSMState_def.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\UserHelper.cpp" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\UserHelper2.cpp" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\UserHelper3.cpp" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\UserLetterBox.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\UserLetterBox.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\VipEventManager.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\VipEventManager.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\VirtualCash.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\VirtualCash.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\VitalityManager.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\VitalityManager.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\Worker.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\Worker.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\XTrap.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\XTrap.h" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\hshield\AntiCpXSvr.h" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\nprotect\ggsrv25.h" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\nprotect\ggsrv30.h" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\resource.h" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\support_User.h" />
+    <ClCompile Include="F:\grandchase\Server\GameServer\user7.cpp" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\xtrap\XTrap4Server.h" />
+    <ClInclude Include="F:\grandchase\Server\GameServer\xtrap\Xtrap_S_Interface.h" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="F:\grandchase\build\ZERO_CHECK.vcxproj">
+      <Project>{3D4B7A87-A741-3D83-AB11-0D3C697A4926}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\grandchase\build\Server\ServerCommon.vcxproj">
+      <Project>{DA491F56-8FAA-3E3F-906E-757A4D6D726B}</Project>
+      <Name>ServerCommon</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

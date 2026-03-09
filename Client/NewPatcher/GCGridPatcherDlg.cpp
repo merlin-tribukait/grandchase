@@ -15,6 +15,7 @@
 #include "GCGlobalValue.h"
 #include "define.h"
 #include "GCPatcherStr.h"
+#include "KGCStringLoader.h"  // Added from header
 
 // Global 함수 선언
 extern void WriteLogFile(std::string strMsg,bool bNewFile = false);
