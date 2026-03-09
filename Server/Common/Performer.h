@@ -7,7 +7,12 @@
 
 #include <windows.h>    // CRITICAL_SECTION
 #include "Thread/Locker.h"
-#include "Log4.h"
+#include <iostream>
+
+// Missing logging macros
+#define START_LOG(stream, msg) std::cout << "[START] " << msg << std::endl
+#define END_LOG(msg) std::cout << "[END] " << msg << std::endl
+#define BUILD_LOG(val) std::cout << "[BUILD] " << val << std::endl
 
 // Missing RTTI macros
 #define NiDeclareRTTI \

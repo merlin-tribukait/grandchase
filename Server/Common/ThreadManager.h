@@ -1,15 +1,19 @@
 #pragma once
 
 #include "IntEvent.h"
-#include <Queue>
+#include <queue>
 #include <ToString.h>
 #include <RTTI.h>
 #include <boost/shared_ptr.hpp>
-#include <thread/Locker.h>
-#include <thread/thread.h>
+#include "Thread/Locker.h"
+#include "Thread/Thread.h"
 #include <atltime.h> // CTime
-#include <dbg/dbg.hpp>
-#include "Log4.h"
+#include <dbg.hpp>
+#include <iostream>
+
+// Missing logging macros for ThreadManager
+#define START_LOG(msg) std::cout << "[START] " << msg << std::endl
+#define END_LOG(msg) std::cout << "[END] " << msg << std::endl
 
 class KThreadManager
 {

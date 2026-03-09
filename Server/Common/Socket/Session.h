@@ -2,10 +2,10 @@
 #include <WinSock2.h>
 #include "Performer.h"
 #include "Thread/Thread.h"
-#include "Serializer/Serializer.h"
+#include "../Serializer/Serializer.h"
 #include "Serializer/SerBuffer.h"
 #include "SocketObject.h"
-#include "KncSecurity/KncSecurity.h"
+#include "../KncSecurity/KncSecurity.h"
 #include "KncException.h"
 
 class KIocp;
