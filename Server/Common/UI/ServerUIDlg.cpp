@@ -7,6 +7,8 @@
 #include "HookStdio.h"
 #include "../BaseServer.h"
 #include ".\serveruidlg.h"
+#include "../KncUtil.h"
+#include "resource.h"
 
 
 #ifdef _DEBUG
@@ -267,9 +269,12 @@ void CServerUIDlg::StartupServer()
 {   
     //------------------------------------------------------------------
     g_pkServer = CreateKNC();
-    g_pkServer->SetHwnd( m_hWnd );
-
-    if( g_pkServer->Init() )
+    // Init server with default config file
+	if (!g_pkServer->Init(L"server.ini"))
+	{
+		AfxMessageBox(L"Failed to initialize server!");
+		return;
+	}
     {
         g_pkServer->Run( false );
     }
@@ -284,7 +289,7 @@ void CServerUIDlg::ShutdownServer()
         return;
 
     g_pkServer->ShutDown();
-    KBaseServer::ReleaseKObj();
+    g_pkServer->ReleaseKObj();
     g_pkServer = NULL;
 }
 

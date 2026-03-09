@@ -7,6 +7,49 @@
 #include <RTTI.h>
 #include <ToString.h>
 #include <KNCSingleton.h>
+#include <vector>
+#include <string>
+
+// Missing type definitions
+struct KServerInfo
+{
+    int nServerID;
+    std::wstring strServerName;
+    std::wstring strServerIP;
+    int nServerPort;
+    int nServerType;
+    
+    KServerInfo() : nServerID(0), nServerPort(0), nServerType(0) {}
+};
+
+struct KSimpleServerInfo
+{
+    int nServerID;
+    std::wstring strServerName;
+    std::wstring strServerIP;
+    int nServerPort;
+    
+    KSimpleServerInfo() : nServerID(0), nServerPort(0) {}
+};
+
+// Missing macro definitions
+#ifndef NiDeclareRootRTTI
+#define NiDeclareRootRTTI(classname) \
+public: \
+    static const NiRTTI* GetRTTI() { return &ms_RTTI; } \
+    virtual const NiRTTI* GetRTTI() const { return &ms_RTTI; } \
+    static bool IsKindOf(const NiRTTI& rtti) { return &ms_RTTI == &rtti; } \
+    virtual bool IsKindOf(const NiRTTI& rtti) const { return &ms_RTTI == &rtti; } \
+    virtual const char* GetTypeName() const { return #classname; } \
+private: \
+    static const NiRTTI ms_RTTI;
+#endif
+
+#ifndef DeclToStringW
+#define DeclToStringW \
+public: \
+    virtual std::wstring ToString() const;
+#endif
 
 class KODBC;
 class KDBLayer;
@@ -49,6 +92,13 @@ public:
 	void InitLog4cxx();
 	void SetLogLevel(IN const int nLogLevel_);
 
+	bool GetServerReady() const { return true; }
+	bool GetServerReadyDone() const { return true; }
+	void SetServerReadyDone(bool bReady) {}
+	void SetHwnd(HWND hWnd) { m_hWnd = hWnd; }
+
+	void ReleaseKObj() {}
+
 	void SetTCPServerList(IN const std::vector< KSimpleServerInfo >& vecUseTCPServerList, IN const std::vector< KSimpleServerInfo >& vecNoUseTCPServerList);
 	void GetTCPServerList(OUT std::vector< KSimpleServerInfo >& vecUseTCPServerList, OUT std::vector< KSimpleServerInfo >& vecNoUseTCPServerList);
 
@@ -62,6 +112,7 @@ protected:
 	KNetLayer*                      m_pkNetLayer;
 	KSimLayer*                      m_pkSimLayer;
 	KDBLayer*                       m_pkDBLayer;
+	HWND                            m_hWnd;                  ///< Window handle for UI
 	std::wstring                    m_strTagVersion;        ///< 050716. florist. 태그빌드 버전 문자열
 
 	KncCriticalSection  m_csServerName;         // 서버 이름 보호. DB T.에서 쓰고 Main T.에서 읽는다.

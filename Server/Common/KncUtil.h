@@ -4,6 +4,18 @@
 #include <string>
 #include <vector>
 
+// Forward declare lua_State to avoid including lua.h
+struct lua_State;
+
+// Global lua state stub
+extern lua_State* g_pLua;
+
+// Stub lua functions
+inline int lua_dostring(lua_State* L, const char* str)
+{
+    return 0;
+}
+
 namespace KncUtil
 {
     // Convert wide string to narrow string

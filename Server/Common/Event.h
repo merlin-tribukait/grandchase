@@ -15,6 +15,39 @@ SmartPointer(KEvent);
 class KEvent;
 SERIALIZE_DEFINE_TAG(KEvent, eTAG_USERCLASS);
 SERIALIZE_DECLARE_PUTGET(KEvent);
+
+// Missing macro definitions for RTTI and string conversion
+#ifndef NiDeclareRootRTTI
+#define NiDeclareRootRTTI(classname) \
+public: \
+    static const NiRTTI* GetRTTI() { return &ms_RTTI; } \
+    virtual const NiRTTI* GetRTTI() const { return &ms_RTTI; } \
+    static bool IsKindOf(const NiRTTI& rtti) { return &ms_RTTI == &rtti; } \
+    virtual bool IsKindOf(const NiRTTI& rtti) const { return &ms_RTTI == &rtti; } \
+    virtual const char* GetTypeName() const { return #classname; } \
+private: \
+    static const NiRTTI ms_RTTI;
+#endif
+
+#ifndef DeclToStringW
+#define DeclToStringW \
+public: \
+    virtual std::wstring ToString() const;
+#endif
+
+// Missing serialization macros
+#ifndef SERIALIZE_DEFINE_TAG
+#define SERIALIZE_DEFINE_TAG(classname, tag) \
+    static const DWORD ms_dwSerializeTag = tag;
+#endif
+
+#ifndef SERIALIZE_DECLARE_PUTGET
+#define SERIALIZE_DECLARE_PUTGET(classname) \
+public: \
+    virtual void Serialize(Serializer::SerBuffer& buffer) const; \
+    virtual void Deserialize(Serializer::SerBuffer& buffer);
+#endif
+
 class KEvent : public boost::noncopyable
 {
 	NiDeclareRootRTTI(KEvent);
