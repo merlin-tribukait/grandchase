@@ -32,7 +32,7 @@ struct KSimpleServerInfo
     KSimpleServerInfo() : nServerID(0), nServerPort(0) {}
 };
 
-// Missing macro definitions
+// Missing macro definitions (NiRTTI already defined in Event.h)
 #ifndef NiDeclareRootRTTI
 #define NiDeclareRootRTTI(classname) \
 public: \

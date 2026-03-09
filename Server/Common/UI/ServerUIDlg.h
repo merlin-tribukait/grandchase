@@ -4,7 +4,8 @@
 #pragma once
 
 #include "afxwin.h"
-#include "EditStreamBuf.h"
+#include "EditStreamBufStub.h"
+#include "resource.h"
 
 #include <vector>
 
@@ -32,7 +33,7 @@ protected:
     // Generated message map functions
     virtual BOOL OnInitDialog();
 	afx_msg void OnPaint();
-	afx_msg void OnClose(UINT nForceClose);
+	afx_msg void OnClose();
     afx_msg HCURSOR OnQueryDragIcon();
     DECLARE_MESSAGE_MAP()
 public:

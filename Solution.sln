@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("9A19103F-16F7-4668-BE54-9A1E7A4F7556") = "DotZLib", "Client\MassFileLib\zlib\contrib\dotzlib\DotZLib\DotZLib.csproj", "{02680225-19FB-402B-A560-4FBF9C104483}"
+Project("9A19103F-16F7-4668-BE54-9A1E7A4F7556") = "DotZLib", "Client\MassFileLib\zlib\contrib\dotzlib\DotZLib\DotZLib.csproj", "{684048E2-C7B9-4B02-8D28-9619A38070B3}"
 EndProject
-Project("9A19103F-16F7-4668-BE54-9A1E7A4F7556") = "distribution_explorer", "Libs\ExternalLib\Boost\boost_1_67_0\libs\math\dot_net_example\distribution_explorer\distribution_explorer.csproj", "{80F1B8E4-6CB2-49F0-BD4C-A56F3273A8CE}"
+Project("9A19103F-16F7-4668-BE54-9A1E7A4F7556") = "distribution_explorer", "Libs\ExternalLib\Boost\boost_1_67_0\libs\math\dot_net_example\distribution_explorer\distribution_explorer.csproj", "{9352D5B3-1611-4248-9170-E51100A00D22}"
 EndProject
-Project("9A19103F-16F7-4668-BE54-9A1E7A4F7556") = "Properties", "Libs\ExternalLib\Boost\boost_1_67_0\libs\math\dot_net_example\distribution_explorer\Properties\Properties.csproj", "{6719E340-19BE-4BD9-911B-3C55F8266C7E}"
+Project("9A19103F-16F7-4668-BE54-9A1E7A4F7556") = "Properties", "Libs\ExternalLib\Boost\boost_1_67_0\libs\math\dot_net_example\distribution_explorer\Properties\Properties.csproj", "{A420005A-AFB6-41FB-BF59-0820FFA7046E}"
 EndProject
-Project("9A19103F-16F7-4668-BE54-9A1E7A4F7556") = "DotZLib", "Libs\ExternalLib\Boost\boost_1_67_0\libs\beast\test\extern\zlib-1.2.11\contrib\dotzlib\DotZLib\DotZLib.csproj", "{F5EE791A-C256-424F-970D-5B9C8B9F1969}"
+Project("9A19103F-16F7-4668-BE54-9A1E7A4F7556") = "DotZLib", "Libs\ExternalLib\Boost\boost_1_67_0\libs\beast\test\extern\zlib-1.2.11\contrib\dotzlib\DotZLib\DotZLib.csproj", "{F3730B41-3F59-4D17-9A7A-D5D47D675402}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,27 +17,27 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{02680225-19FB-402B-A560-4FBF9C104483}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{02680225-19FB-402B-A560-4FBF9C104483}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{02680225-19FB-402B-A560-4FBF9C104483}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{02680225-19FB-402B-A560-4FBF9C104483}.Release|Any CPU.Build.0 = Release|Any CPU
-		{80F1B8E4-6CB2-49F0-BD4C-A56F3273A8CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{80F1B8E4-6CB2-49F0-BD4C-A56F3273A8CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{80F1B8E4-6CB2-49F0-BD4C-A56F3273A8CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{80F1B8E4-6CB2-49F0-BD4C-A56F3273A8CE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6719E340-19BE-4BD9-911B-3C55F8266C7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6719E340-19BE-4BD9-911B-3C55F8266C7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6719E340-19BE-4BD9-911B-3C55F8266C7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6719E340-19BE-4BD9-911B-3C55F8266C7E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F5EE791A-C256-424F-970D-5B9C8B9F1969}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F5EE791A-C256-424F-970D-5B9C8B9F1969}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F5EE791A-C256-424F-970D-5B9C8B9F1969}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F5EE791A-C256-424F-970D-5B9C8B9F1969}.Release|Any CPU.Build.0 = Release|Any CPU
+		{684048E2-C7B9-4B02-8D28-9619A38070B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{684048E2-C7B9-4B02-8D28-9619A38070B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{684048E2-C7B9-4B02-8D28-9619A38070B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{684048E2-C7B9-4B02-8D28-9619A38070B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9352D5B3-1611-4248-9170-E51100A00D22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9352D5B3-1611-4248-9170-E51100A00D22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9352D5B3-1611-4248-9170-E51100A00D22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9352D5B3-1611-4248-9170-E51100A00D22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A420005A-AFB6-41FB-BF59-0820FFA7046E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A420005A-AFB6-41FB-BF59-0820FFA7046E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A420005A-AFB6-41FB-BF59-0820FFA7046E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A420005A-AFB6-41FB-BF59-0820FFA7046E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3730B41-3F59-4D17-9A7A-D5D47D675402}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3730B41-3F59-4D17-9A7A-D5D47D675402}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3730B41-3F59-4D17-9A7A-D5D47D675402}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3730B41-3F59-4D17-9A7A-D5D47D675402}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {20EFE23D-D42F-40D8-A8E9-EDBDD310BCCC}
+		SolutionGuid = {53FB528F-AD25-4861-BED9-10BFEA0EB60B}
 	EndGlobalSection
 EndGlobal

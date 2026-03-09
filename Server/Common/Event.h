@@ -13,10 +13,15 @@
 SmartPointer(KEvent);
 
 class KEvent;
-SERIALIZE_DEFINE_TAG(KEvent, eTAG_USERCLASS);
+SERIALIZE_DEFINE_TAG(KEvent, 1)
 SERIALIZE_DECLARE_PUTGET(KEvent);
 
 // Missing macro definitions for RTTI and string conversion
+struct NiRTTI {
+    const char* name;
+    NiRTTI(const char* n) : name(n) {}
+};
+
 #ifndef NiDeclareRootRTTI
 #define NiDeclareRootRTTI(classname) \
 public: \

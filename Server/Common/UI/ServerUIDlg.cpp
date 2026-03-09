@@ -90,20 +90,11 @@ void CServerUIDlg::DoDataExchange(CDataExchange* pDX)
 
 BEGIN_MESSAGE_MAP(CServerUIDlg, CDialog)
 	ON_WM_PAINT()
-		// ON_WM_CLOSE() - wParam 인자를 받기 위해 아래와 같이 풀어 씀
-		{
-			WM_CLOSE, 0, 0, 0, AfxSig_vw,
-			(AFX_PMSG)(AFX_PMSGW) (static_cast< void (AFX_MSG_CALL CWnd::*)(UINT_PTR) > (OnClose))
-		},
+	ON_WM_CLOSE()
     ON_WM_QUERYDRAGICON()
-    //}}AFX_MSG_MAP
     ON_BN_CLICKED(IDOK, OnBnClickedOk)
     ON_BN_CLICKED(IDCANCEL, OnBnClickedCancel)
     ON_WM_TIMER()
-//  ON_LBN_SELCHANGE(IDC_OUTPUT, OnLbnSelchangeOutput)
-//  ON_WM_CTLCOLOR()
-//ON_WM_LBUTTONDBLCLK()
-//ON_WM_LBUTTONDBLCLK()
 END_MESSAGE_MAP()
 
 
@@ -144,15 +135,8 @@ BOOL CServerUIDlg::OnInitDialog()
     return TRUE;  // return TRUE  unless you set the focus to a control
 }
 
-void CServerUIDlg::OnClose(UINT nForceClose) 
+void CServerUIDlg::OnClose()
 {
-	// 강제 종료
-	if (nForceClose != NULL)
-	{
-		CDialog::OnClose();
-		return;
-	}
-
 	int iRet = MessageBox( L"확실히 종료하시겠습니까 ?", L"확인", MB_OKCANCEL );
 	if (iRet == IDOK)
 		CDialog::OnClose();

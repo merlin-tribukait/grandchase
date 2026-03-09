@@ -1,6 +1,7 @@
 #pragma once
 
 #include "EditLog.h"
+#include <streambuf>
 
 namespace EditStream {
     // Stub implementation to avoid template issues
@@ -8,6 +9,10 @@ namespace EditStream {
     class basic_editstreambuf : public std::basic_streambuf< E, T >
     {
     public:
+        using char_type = E;
+        using int_type = typename T::int_type;
+        using traits_type = T;
+        
         basic_editstreambuf(class CEditLog* pList) {}
         virtual ~basic_editstreambuf() {}
         
