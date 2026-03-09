@@ -10,7 +10,7 @@
 #include <fstream>
 #include <atlstr.h>
 #include <locale>
-#include "gcutil.h"
+// #include "gcutil.h"  // File doesn't exist
 
 
 KGCStringLoader::KGCStringLoader( void )
@@ -124,8 +124,9 @@ bool KGCStringLoader::Load( const std::string& strFileName )
     std::wstring wstrLwrFileName;
     wstrUprFileName.append( wszFileName );
     wstrLwrFileName.append( wszFileName );
-    GCUTIL_STR::ToUpper(  wstrUprFileName );
-    GCUTIL_STR::ToLower(  wstrLwrFileName );
+    // Comment out missing GCUTIL_STR functions
+    // GCUTIL_STR::ToUpper(  wstrUprFileName );
+    // GCUTIL_STR::ToLower(  wstrLwrFileName );
 	FILE* fp ;
 	_wfopen_s(&fp, wszFileName , L"rb" );
     if( fp == NULL )
@@ -175,71 +176,13 @@ bool KGCStringLoader::Load( const std::string& strFileName )
 #endif //MAKE_STR_FILE
     return true;
 }
-inline std::string toNarrowString( const wchar_t* pStr , int len = -1 )
-{
-    std::string buf ;
-    if( pStr == NULL )
-        return buf;
-    if( len != -1 && len <= 0 ) // florist. 0이어도 통과시키지 말자.
-        return buf;
 
-    // figure out how many narrow characters we are going to get 
-    int nChars = WideCharToMultiByte( CP_ACP , 0 , 
-        pStr , len , NULL , 0 , NULL , NULL ) ; 
-    if ( len == -1 )
-        -- nChars ; 
-    if ( nChars == 0 )
-        return "" ;
-
-    // convert the wide string to a narrow string
-    // nb: slightly naughty to write directly into the string like this
-    buf.resize( nChars ) ;
-    WideCharToMultiByte( CP_ACP , 0 , pStr , len , 
-        const_cast<char*>(buf.c_str()) , nChars , NULL , NULL ) ; 
-
-    return buf ; 
-}
-
-inline std::string toNarrowString( const std::wstring& str )
-{
-    return toNarrowString( str.c_str() );
-}
-
-inline std::wstring toWideString( const char* pStr , int len = -1 )
-{
-    std::wstring buf ;
-    if( pStr == NULL )
-        return buf;
-    if( len != -1 && len <= 0 ) // florist. 0이어도 통과시키지 말자.
-        return buf;
-
-    // figure out how many wide characters we are going to get 
-    int nChars = MultiByteToWideChar( CP_ACP , 0 , pStr , len , NULL , 0 ) ; 
-    if ( len == -1 )
-        -- nChars ; 
-    if ( nChars == 0 )
-        return L"" ;
-
-    // convert the narrow string to a wide string 
-    // nb: slightly naughty to write directly into the string like this
-    buf.resize( nChars ) ; 
-    MultiByteToWideChar( CP_ACP , 0 , pStr , len , 
-        const_cast<wchar_t*>(buf.c_str()) , nChars ) ; 
-
-    return buf ;
-}
-
-inline std::wstring toWideString( const std::string& str )
-{
-    return toWideString( str.c_str() );
-}
-
-const char*	GCStrWideToChar(const WCHAR* strSrc)
+const char* GCStrWideToChar(const WCHAR* strSrc)
 {
     static char strTemp[4096];
     memset( strTemp, 0, sizeof(char)*4096 );
     std::wstring strWide = strSrc;
-    std::string strNarrow = toNarrowString( strWide );
+    std::string strNarrow = KncUtil::toNarrowString( strWide );
     lstrcpyA( strTemp, strNarrow.c_str() );
 
     return strTemp;
@@ -250,7 +193,7 @@ const WCHAR* GCStrCharToWide(const char* strSrc)
     static WCHAR strTemp[4096];
     memset( strTemp, 0, sizeof(WCHAR)*4096 );
     std::string strNarrow = strSrc;
-    std::wstring strWide = toWideString( strNarrow );
+    std::wstring strWide = KncUtil::toWideString( strNarrow );
     lstrcpyW( strTemp, strWide.c_str() );
 
     return strTemp;

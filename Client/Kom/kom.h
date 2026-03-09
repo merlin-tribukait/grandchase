@@ -140,6 +140,8 @@ struct SKomWriteInfo :public boost::noncopyable
 class Komfile :public boost::noncopyable
 {
 public:
+	static std::map<unsigned int, INT64> keymap;
+	static void AddKey(INT64 key);
 	static bool Verify(std::string filename);
 
 	Komfile() { Close(); };

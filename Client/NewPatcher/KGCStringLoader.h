@@ -15,6 +15,7 @@
 #include <string>
 #include <vector>
 #include "KAssert.h"
+#include "../GCUtil/KncUtil.h"  // Use existing KncUtil namespace
 
 #define UNUSED_COPY_CONSTRUCTOR(c) \
         c##( const c##& ) \

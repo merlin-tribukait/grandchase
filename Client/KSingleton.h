@@ -63,4 +63,20 @@ void KSingleton<TYPE>::SetInstance( TYPE* pInstance )
 	ReleaseInstance();
 	ms_selfInstance = pInstance;
 }
+
+// Macro to declare singleton functionality
+#define DeclareSingleton(TYPE) \
+public: \
+    static TYPE* GetInstance() { return KSingleton<TYPE>::GetInstance(); } \
+    static void ReleaseInstance() { KSingleton<TYPE>::ReleaseInstance(); } \
+    static void SetInstance(TYPE* pInstance) { KSingleton<TYPE>::SetInstance(pInstance); } \
+private:
+
+// Macro to define singleton inline implementation
+#define DefSingletonInline(TYPE)
+
+// Macro to implement singleton
+#define ImplementSingleton(TYPE) \
+    template<> TYPE* KSingleton<TYPE>::ms_selfInstance = 0;
+
 #endif // _KSINGLETON_H_

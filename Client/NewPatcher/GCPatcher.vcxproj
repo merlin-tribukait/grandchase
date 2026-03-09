@@ -270,402 +270,401 @@
     <ProjectGuid>{5A53488F-0170-4553-A0BB-FCE5E6ABD020}</ProjectGuid>
     <RootNamespace>GCPatcher</RootNamespace>
     <Keyword>MFCProj</Keyword>
-    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CN_SERVICE|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CN_SERVICE|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CN_THAT_TEST|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CN_THAT_TEST|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CNTEST|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CNTEST|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='한국넷마블QA2|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='한국넷마블QA2|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='한국넷마블QA1|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='한국넷마블QA1|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='유럽본섭|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='유럽본섭|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='유럽 사내테스트|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='유럽 사내테스트|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='남미본섭|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='남미본섭|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='남미사내테스트|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='남미사내테스트|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='인도네시아한국테스트|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='인도네시아한국테스트|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='인도네시아본섭|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='인도네시아본섭|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='인도네시아 사내테스트|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='인도네시아 사내테스트|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='한국구매테섭|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='한국구매테섭|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='태국본섭|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='태국본섭|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='태국 사내테스트|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='태국 사내테스트|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='필리핀 사내테스트|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Origin BR Dev|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='필리핀 사내테스트|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Origin BR Dev|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='필리핀본섭|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='필리핀본섭|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='한국사내테스트|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='한국사내테스트|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='미국본섭|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='미국본섭|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='미국 사내테스트|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='미국 사내테스트|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='한국오픈테스트|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='한국오픈테스트|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Patcher 테스트 (패쳐패치 제거)|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Patcher 테스트 (패쳐패치 제거)|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='브라질사내테스트|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='브라질사내테스트|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='홍콩사내테스트|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='홍콩사내테스트|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='대만사내테스트|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='대만사내테스트|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Patcher 테스트 서버들|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Patcher 테스트 서버들|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='홍콩본섭|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='홍콩본섭|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='대만본섭|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='대만본섭|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='한국본섭|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='한국본섭|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='브라질본섭|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='브라질본섭|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -1313,8 +1312,8 @@
     <ClCompile>
       <Optimization>MaxSpeed</Optimization>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
-      <AdditionalIncludeDirectories>./;./PatchCore;./TinyXML;../;../GCUtil/;../MassFileLib/;D:\PerforceRoot2\GrandChase\KNCSDK81\Include;../GCLuaManager;..\GCDeviceLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;TIXML_USE_STL;_LEVELUP_BRAZIL;_USE_32BIT_TIME_T;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>./;./PatchCore;./TinyXML;../;../GCUtil/;../MassFileLib/;D:\PerforceRoot2\GrandChase\KNCSDK81\Include;../GCLuaManager;..\GCDeviceLib;../../Libs/ExternalLib/Boost/boost_1_67_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;TIXML_USE_STL;_LEVELUP_BRAZIL;_USE_32BIT_TIME_T;_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>true</StringPooling>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -1334,7 +1333,7 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>../;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;../JPEG/lib/Jpeg;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>libc;libcmtd;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -1381,7 +1380,7 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>../;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;../JPEG/lib/Jpeg;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>libc;libcmtd;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -1426,10 +1425,10 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;f:\grandchase\Client\zlib.lib;f:\grandchase\Client\zlibstat.lib;f:\grandchase\Client\libiconv-static.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;f:\grandchase\Client\JPEG\lib\libdcr.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <AdditionalLibraryDirectories>../JPEG/lib/JPEG;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../;.\GridInclude\GridLoad_release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>../;../JPEG/lib/JPEG;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../;.\GridInclude\GridLoad_release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>libc;libcmtd;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>$(OutDir)GrandChase.pdb</ProgramDatabaseFile>
@@ -1474,10 +1473,10 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;f:\grandchase\Client\zlib.lib;f:\grandchase\Client\zlibstat.lib;f:\grandchase\Client\libiconv-static.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;f:\grandchase\Client\JPEG\lib\libdcr.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <AdditionalLibraryDirectories>../JPEG/lib/JPEG;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../;.\GridInclude\GridLoad_release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>../;../JPEG/lib/JPEG;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../;.\GridInclude\GridLoad_release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>libc;libcmtd;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>$(OutDir)GrandChase.pdb</ProgramDatabaseFile>
@@ -1520,10 +1519,10 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;f:\grandchase\Client\zlib.lib;f:\grandchase\Client\zlibstat.lib;f:\grandchase\Client\libiconv-static.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;f:\grandchase\Client\JPEG\lib\libdcr.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <AdditionalLibraryDirectories>../JPEG/lib/JPEG;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../;.\GridInclude\GridLoad_release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>../;../JPEG/lib/JPEG;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../;.\GridInclude\GridLoad_release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>libc;libcmtd;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>$(OutDir)GrandChase.pdb</ProgramDatabaseFile>
@@ -1571,10 +1570,10 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;f:\grandchase\Client\zlib.lib;f:\grandchase\Client\zlibstat.lib;f:\grandchase\Client\libiconv-static.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;f:\grandchase\Client\JPEG\lib\libdcr.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <AdditionalLibraryDirectories>../JPEG/lib/JPEG;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../;.\GridInclude\GridLoad_release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>../;../JPEG/lib/JPEG;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../;.\GridInclude\GridLoad_release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>libc;libcmtd;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>$(OutDir)GrandChase.pdb</ProgramDatabaseFile>
@@ -1621,7 +1620,7 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;f:\grandchase\Client\zlib.lib;f:\grandchase\Client\zlibstat.lib;f:\grandchase\Client\libiconv-static.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;f:\grandchase\Client\JPEG\lib\libdcr.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>../;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;../JPEG/lib/JPEG;./GridInclude/GridLoad_release/;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -1669,7 +1668,7 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;f:\grandchase\Client\zlib.lib;f:\grandchase\Client\zlibstat.lib;f:\grandchase\Client\libiconv-static.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;f:\grandchase\Client\JPEG\lib\libdcr.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>../;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;../JPEG/lib/JPEG;./GridInclude/GridLoad_release/;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -1716,7 +1715,7 @@
       <ResourceOutputFileName>$(IntDir)GrandChase.res</ResourceOutputFileName>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>../;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;../JPEG/lib/Jpeg;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -1765,7 +1764,7 @@
       <ResourceOutputFileName>$(IntDir)GrandChase.res</ResourceOutputFileName>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>../;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;../JPEG/lib/Jpeg;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -1814,7 +1813,7 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>../;./dbg;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;../JPEG/lib/JPEG;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -1865,7 +1864,7 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>../;./dbg;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;../JPEG/lib/JPEG;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -1911,7 +1910,7 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;f:\grandchase\Client\zlib.lib;f:\grandchase\Client\zlibstat.lib;f:\grandchase\Client\libiconv-static.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;f:\grandchase\Client\JPEG\lib\libdcr.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>../;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;../JPEG/lib/JPEG;./GridInclude/GridLoad_release/;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -1959,7 +1958,7 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;f:\grandchase\Client\zlib.lib;f:\grandchase\Client\zlibstat.lib;f:\grandchase\Client\libiconv-static.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;f:\grandchase\Client\JPEG\lib\libdcr.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>../;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;../JPEG/lib/JPEG;./GridInclude/GridLoad_release/;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -2005,7 +2004,7 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>../;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;../JPEG/lib/Jpeg;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -2053,7 +2052,7 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>../;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;../JPEG/lib/Jpeg;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -2099,7 +2098,7 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;f:\grandchase\Client\zlib.lib;f:\grandchase\Client\zlibstat.lib;f:\grandchase\Client\libiconv-static.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;f:\grandchase\Client\JPEG\lib\libdcr.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>../;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;../JPEG/lib/Jpeg;.\GridInclude\GridLoad_release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -2147,7 +2146,7 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;f:\grandchase\Client\zlib.lib;f:\grandchase\Client\zlibstat.lib;f:\grandchase\Client\libiconv-static.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;f:\grandchase\Client\JPEG\lib\libdcr.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>../;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;../JPEG/lib/Jpeg;.\GridInclude\GridLoad_release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -2193,7 +2192,7 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>../;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;../JPEG/lib/JPEG;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -2241,7 +2240,7 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>../;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;../JPEG/lib/JPEG;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -2284,7 +2283,7 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;f:\grandchase\Client\zlib.lib;f:\grandchase\Client\zlibstat.lib;f:\grandchase\Client\libiconv-static.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;f:\grandchase\Client\JPEG\lib\libdcr.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>../JPEG/lib/JPEG;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;.\GridInclude\GridLoad_release;../;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -2329,7 +2328,7 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;f:\grandchase\Client\zlib.lib;f:\grandchase\Client\zlibstat.lib;f:\grandchase\Client\libiconv-static.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;f:\grandchase\Client\JPEG\lib\libdcr.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>../JPEG/lib/JPEG;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;.\GridInclude\GridLoad_release;../;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -2375,7 +2374,7 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;f:\grandchase\Client\zlib.lib;f:\grandchase\Client\zlibstat.lib;f:\grandchase\Client\libiconv-static.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;f:\grandchase\Client\JPEG\lib\libdcr.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>../;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;../JPEG/lib/Jpeg;.\GridInclude\GridLoad_release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -2423,7 +2422,7 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;f:\grandchase\Client\zlib.lib;f:\grandchase\Client\zlibstat.lib;f:\grandchase\Client\libiconv-static.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;f:\grandchase\Client\JPEG\lib\libdcr.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>../;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;../JPEG/lib/Jpeg;.\GridInclude\GridLoad_release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -2469,7 +2468,7 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;f:\grandchase\Client\zlib.lib;f:\grandchase\Client\zlibstat.lib;f:\grandchase\Client\libiconv-static.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;f:\grandchase\Client\JPEG\lib\libdcr.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>../;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;../JPEG/lib/Jpeg;.\GridInclude\GridLoad_release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -2517,7 +2516,7 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;f:\grandchase\Client\zlib.lib;f:\grandchase\Client\zlibstat.lib;f:\grandchase\Client\libiconv-static.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;f:\grandchase\Client\JPEG\lib\libdcr.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>../;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;../JPEG/lib/Jpeg;.\GridInclude\GridLoad_release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -2563,7 +2562,7 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;f:\grandchase\Client\zlib.lib;f:\grandchase\Client\zlibstat.lib;f:\grandchase\Client\libiconv-static.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;f:\grandchase\Client\JPEG\lib\libdcr.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>../;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;../JPEG/lib/Jpeg;./GridInclude/GridLoad_release/;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -2611,7 +2610,7 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;f:\grandchase\Client\zlib.lib;f:\grandchase\Client\zlibstat.lib;f:\grandchase\Client\libiconv-static.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;f:\grandchase\Client\JPEG\lib\libdcr.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>../;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;../JPEG/lib/Jpeg;./GridInclude/GridLoad_release/;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -2646,9 +2645,9 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;f:\grandchase\Client\zlib.lib;f:\grandchase\Client\zlibstat.lib;f:\grandchase\Client\libiconv-static.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;f:\grandchase\Client\JPEG\lib\libdcr.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
-      <AdditionalLibraryDirectories>../JPEG/lib/JPEG;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../;.\GridInclude\GridLoad_release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>../;../JPEG/lib/JPEG;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../;.\GridInclude\GridLoad_release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>libc;libcmtd;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>$(OutDir)GrandChase.pdb</ProgramDatabaseFile>
@@ -2683,9 +2682,9 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;f:\grandchase\Client\zlib.lib;f:\grandchase\Client\zlibstat.lib;f:\grandchase\Client\libiconv-static.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;f:\grandchase\Client\JPEG\lib\libdcr.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
-      <AdditionalLibraryDirectories>../JPEG/lib/JPEG;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../;.\GridInclude\GridLoad_release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>../;../JPEG/lib/JPEG;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../;.\GridInclude\GridLoad_release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>libc;libcmtd;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>$(OutDir)GrandChase.pdb</ProgramDatabaseFile>
@@ -2720,7 +2719,7 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml_MTD.lib;libcurl.lib;nmcrypt.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml_MTD.lib;libcurl.lib;nmcrypt.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <AdditionalLibraryDirectories>E:\FirstChase Source Limpa\Libs\ExternalLib\Boost\boost_1_67_0\stage\lib;E:\FirstChase Source Limpa\Libs\ExternalLib\Boost\boost_1_67_0\stage;E:\FirstChase Source Limpa\Libs\ExternalLib\Boost\boost_1_67_0;../;./dbg;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;../JPEG/lib/Jpeg;.\GridInclude\GridLoad_release;$(SolutionDir)\Libs\InternalLib\KNCSDK_2015/Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>libc;libcmtd;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -2758,7 +2757,7 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml_MTD.lib;libcurl.lib;nmcrypt.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml_MTD.lib;libcurl.lib;nmcrypt.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <AdditionalLibraryDirectories>C:\GrandChase\ChaseProject\InternalSrc\Libs\ExternalLib\KOGPatcher\Release;C:\GrandChase\ChaseProject\InternalSrc\Libs\ExternalLib\KOGPatcher\libxml\Debug;../;./dbg;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;../JPEG/lib/Jpeg;.\GridInclude\GridLoad_release;$(SolutionDir)\Libs\InternalLib\KNCSDK_2015/Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>libc;libcmtd;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -2795,7 +2794,7 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml_MTD.lib;libcurl.lib;nmcrypt.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml_MTD.lib;libcurl.lib;nmcrypt.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <AdditionalLibraryDirectories>C:\GrandChase\ChaseProject\InternalSrc\Libs\ExternalLib\KOGPatcher\Release;C:\GrandChase\ChaseProject\InternalSrc\Libs\ExternalLib\KOGPatcher\libxml\Debug;../;./dbg;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;../JPEG/lib/Jpeg;.\GridInclude\GridLoad_release;$(SolutionDir)\Libs\InternalLib\KNCSDK_2015/Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>libc;libcmtd;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -2831,7 +2830,7 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml_MTD.lib;libcurl.lib;nmcrypt.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml_MTD.lib;libcurl.lib;nmcrypt.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <AdditionalLibraryDirectories>C:\GrandChase\ChaseProject\InternalSrc\Libs\ExternalLib\KOGPatcher\Release;C:\GrandChase\ChaseProject\InternalSrc\Libs\ExternalLib\KOGPatcher\libxml\Debug;../;./dbg;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;../JPEG/lib/Jpeg;.\GridInclude\GridLoad_release;$(SolutionDir)\Libs\InternalLib\KNCSDK_2015/Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>libc;libcmtd;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -2877,7 +2876,7 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;f:\grandchase\Client\zlib.lib;f:\grandchase\Client\zlibstat.lib;f:\grandchase\Client\libiconv-static.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;f:\grandchase\Client\JPEG\lib\libdcr.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>../;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;../JPEG/lib/Jpeg;./GridInclude/GridLoad_release/;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -2924,7 +2923,7 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;f:\grandchase\Client\zlib.lib;f:\grandchase\Client\zlibstat.lib;f:\grandchase\Client\libiconv-static.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;f:\grandchase\Client\JPEG\lib\libdcr.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>../;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;../JPEG/lib/Jpeg;./GridInclude/GridLoad_release/;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -2968,7 +2967,7 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;f:\grandchase\Client\zlib.lib;f:\grandchase\Client\zlibstat.lib;f:\grandchase\Client\libiconv-static.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;f:\grandchase\Client\JPEG\lib\libdcr.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>../;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;../JPEG/lib/Jpeg;./GridInclude/GridLoad_release/;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -3014,7 +3013,7 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;f:\grandchase\Client\zlib.lib;f:\grandchase\Client\zlibstat.lib;f:\grandchase\Client\libiconv-static.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;f:\grandchase\Client\JPEG\lib\libdcr.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>../;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;../JPEG/lib/Jpeg;./GridInclude/GridLoad_release/;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -3055,7 +3054,7 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>../JPEG/lib/JPEG;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -3101,7 +3100,7 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>../JPEG/lib/JPEG;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -3148,7 +3147,7 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;f:\grandchase\Client\zlib.lib;f:\grandchase\Client\zlibstat.lib;f:\grandchase\Client\libiconv-static.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;f:\grandchase\Client\JPEG\lib\libdcr.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>../;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;../JPEG/lib/Jpeg;.\GridInclude\GridLoad_release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -3196,7 +3195,7 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;f:\grandchase\Client\zlib.lib;f:\grandchase\Client\zlibstat.lib;f:\grandchase\Client\libiconv-static.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;f:\grandchase\Client\JPEG\lib\libdcr.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>../;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;../JPEG/lib/Jpeg;.\GridInclude\GridLoad_release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -3243,10 +3242,10 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;f:\grandchase\Client\zlib.lib;f:\grandchase\Client\zlibstat.lib;f:\grandchase\Client\libiconv-static.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;f:\grandchase\Client\JPEG\lib\libdcr.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <AdditionalLibraryDirectories>../JPEG/lib/JPEG;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../;.\GridInclude\GridLoad_release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>../;../JPEG/lib/JPEG;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../;.\GridInclude\GridLoad_release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>libc;libcmtd;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>$(OutDir)GrandChase.pdb</ProgramDatabaseFile>
@@ -3295,10 +3294,10 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;f:\grandchase\Client\zlib.lib;f:\grandchase\Client\zlibstat.lib;f:\grandchase\Client\libiconv-static.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;f:\grandchase\Client\JPEG\lib\libdcr.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <AdditionalLibraryDirectories>../JPEG/lib/JPEG;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../;.\GridInclude\GridLoad_release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>../;../JPEG/lib/JPEG;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../;.\GridInclude\GridLoad_release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>libc;libcmtd;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>$(OutDir)GrandChase.pdb</ProgramDatabaseFile>
@@ -3346,10 +3345,10 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;f:\grandchase\Client\zlib.lib;f:\grandchase\Client\zlibstat.lib;f:\grandchase\Client\libiconv-static.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;f:\grandchase\Client\JPEG\lib\libdcr.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <AdditionalLibraryDirectories>../JPEG/lib/JPEG;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../;.\GridInclude\GridLoad_release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>../;../JPEG/lib/JPEG;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../;.\GridInclude\GridLoad_release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>libc;libcmtd;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>$(OutDir)GrandChase.pdb</ProgramDatabaseFile>
@@ -3398,10 +3397,10 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;f:\grandchase\Client\zlib.lib;f:\grandchase\Client\zlibstat.lib;f:\grandchase\Client\libiconv-static.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;f:\grandchase\Client\JPEG\lib\libdcr.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <AdditionalLibraryDirectories>../JPEG/lib/JPEG;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../;.\GridInclude\GridLoad_release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>../;../JPEG/lib/JPEG;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../;.\GridInclude\GridLoad_release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>libc;libcmtd;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>$(OutDir)GrandChase.pdb</ProgramDatabaseFile>
@@ -3449,7 +3448,7 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;f:\grandchase\Client\zlib.lib;f:\grandchase\Client\zlibstat.lib;f:\grandchase\Client\libiconv-static.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;f:\grandchase\Client\JPEG\lib\libdcr.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>../;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;../JPEG/lib/JPEG;./GridInclude/GridLoad_release/;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -3501,7 +3500,7 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;f:\grandchase\Client\zlib.lib;f:\grandchase\Client\zlibstat.lib;f:\grandchase\Client\libiconv-static.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;f:\grandchase\Client\JPEG\lib\libdcr.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>../;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;../JPEG/lib/JPEG;./GridInclude/GridLoad_release/;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -3551,7 +3550,7 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;f:\grandchase\Client\zlib.lib;f:\grandchase\Client\zlibstat.lib;f:\grandchase\Client\libiconv-static.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;f:\grandchase\Client\JPEG\lib\libdcr.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>../JPEG/lib/JPEG;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../;./GridInclude/GridLoad_release/;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -3602,7 +3601,7 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;f:\grandchase\Client\zlib.lib;f:\grandchase\Client\zlibstat.lib;f:\grandchase\Client\libiconv-static.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;f:\grandchase\Client\JPEG\lib\libdcr.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>../JPEG/lib/JPEG;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../;./GridInclude/GridLoad_release/;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -3652,7 +3651,7 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>../;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;../JPEG/lib/Jpeg;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -3700,7 +3699,7 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>../;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;../JPEG/lib/Jpeg;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -3746,7 +3745,7 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;f:\grandchase\Client\zlib.lib;f:\grandchase\Client\zlibstat.lib;f:\grandchase\Client\libiconv-static.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;f:\grandchase\Client\JPEG\lib\libdcr.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>../;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;../JPEG/lib/Jpeg;.\GridInclude\GridLoad_release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -3794,7 +3793,7 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;f:\grandchase\Client\zlib.lib;f:\grandchase\Client\zlibstat.lib;f:\grandchase\Client\libiconv-static.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;f:\grandchase\Client\JPEG\lib\libdcr.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>../;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;../JPEG/lib/Jpeg;.\GridInclude\GridLoad_release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -3840,10 +3839,10 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;f:\grandchase\Client\zlib.lib;f:\grandchase\Client\zlibstat.lib;f:\grandchase\Client\libiconv-static.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;f:\grandchase\Client\JPEG\lib\libdcr.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <AdditionalLibraryDirectories>../JPEG/lib/JPEG;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../;.\GridInclude\GridLoad_release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>../;../JPEG/lib/JPEG;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../;.\GridInclude\GridLoad_release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>libc;libcmtd;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>$(OutDir)GrandChase.pdb</ProgramDatabaseFile>
@@ -3891,10 +3890,10 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;f:\grandchase\Client\zlib.lib;f:\grandchase\Client\zlibstat.lib;f:\grandchase\Client\libiconv-static.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;f:\grandchase\Client\JPEG\lib\libdcr.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <AdditionalLibraryDirectories>../JPEG/lib/JPEG;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../;.\GridInclude\GridLoad_release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>../;../JPEG/lib/JPEG;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../;.\GridInclude\GridLoad_release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>libc;libcmtd;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>$(OutDir)GrandChase.pdb</ProgramDatabaseFile>
@@ -3941,10 +3940,10 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;f:\grandchase\Client\zlib.lib;f:\grandchase\Client\zlibstat.lib;f:\grandchase\Client\libiconv-static.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;f:\grandchase\Client\JPEG\lib\libdcr.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <AdditionalLibraryDirectories>../JPEG/lib/JPEG;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../;.\GridInclude\GridLoad_release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>../;../JPEG/lib/JPEG;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../;.\GridInclude\GridLoad_release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>libc;libcmtd;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>$(OutDir)GrandChase.pdb</ProgramDatabaseFile>
@@ -3992,10 +3991,10 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;f:\grandchase\Client\zlib.lib;f:\grandchase\Client\zlibstat.lib;f:\grandchase\Client\libiconv-static.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;f:\grandchase\Client\JPEG\lib\libdcr.lib;nmGridLoad_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <AdditionalLibraryDirectories>../JPEG/lib/JPEG;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../;.\GridInclude\GridLoad_release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>../;../JPEG/lib/JPEG;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../;.\GridInclude\GridLoad_release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>libc;libcmtd;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>$(OutDir)GrandChase.pdb</ProgramDatabaseFile>
@@ -4042,7 +4041,7 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;imgdecoder.lib;CYHJoin.lib;iphlpapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;imgdecoder.lib;CYHJoin.lib;iphlpapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>../;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;../JPEG/lib/Jpeg;./PngWindow;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -4090,7 +4089,7 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;imgdecoder.lib;CYHJoin.lib;iphlpapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;imgdecoder.lib;CYHJoin.lib;iphlpapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>../;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;../JPEG/lib/Jpeg;./PngWindow;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -4136,7 +4135,7 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;imgdecoder.lib;CYHJoin.lib;iphlpapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;imgdecoder.lib;CYHJoin.lib;iphlpapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>../;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;../JPEG/lib/Jpeg;./PngWindow;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -4184,7 +4183,7 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;imgdecoder.lib;CYHJoin.lib;iphlpapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;imgdecoder.lib;CYHJoin.lib;iphlpapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>../;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;../JPEG/lib/Jpeg;./PngWindow;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -4230,10 +4229,10 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;imgdecoder.lib;CYHJoin.lib;iphlpapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;imgdecoder.lib;CYHJoin.lib;iphlpapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <AdditionalLibraryDirectories>../JPEG/lib/JPEG;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../;.\GridInclude\GridLoad_release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>../;../JPEG/lib/JPEG;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../;.\GridInclude\GridLoad_release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>libc;libcmtd;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>$(OutDir)GrandChase.pdb</ProgramDatabaseFile>
@@ -4281,10 +4280,10 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;KncDebug71MT.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxmlMT.lib;libcurlMT.lib;nmcrypt.lib;imgdecoder.lib;CYHJoin.lib;iphlpapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>/nod:kernel32.lib;/nod:advapi32.lib;/nod:user32.lib;/nod:gdi32.lib;/nod:shell32.lib;/nod:comdlg32.lib;/nod:version.lib;/nod:mpr.lib;/nod:rasapi32.lib;/nod:winmm.lib;/nod:winspool.lib;/nod:vfw32.lib;/nod:secur32.lib;/nod:oleacc.lib;/nod:oledlg.lib;/nod:sensapi.lib;unicows.lib;kernel32.lib;advapi32.lib;user32.lib;gdi32.lib;shell32.lib;comdlg32.lib;version.lib;mpr.lib;rasapi32.lib;winmm.lib;winspool.lib;vfw32.lib;secur32.lib;oleacc.lib;oledlg.lib;sensapi.lib;imm32.lib;comctl32.lib;cximageMT.lib;tiffMT.lib;pngMT.lib;jpegMT.lib;urlmon.lib;libxml.lib;libcurl.lib;nmcrypt.lib;imgdecoder.lib;CYHJoin.lib;iphlpapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)GrandChase.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <AdditionalLibraryDirectories>../JPEG/lib/JPEG;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../;.\GridInclude\GridLoad_release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>../;../JPEG/lib/JPEG;../JPEG/lib/Cximage;../JPEG/lib/tif;../JPEG/lib/png;./dbg;D:\PerforceRoot2\GrandChase\KNCSDK81\lib;../;.\GridInclude\GridLoad_release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>libc;libcmtd;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>$(OutDir)GrandChase.pdb</ProgramDatabaseFile>
@@ -4400,6 +4399,7 @@
   <ItemGroup>
     <ClCompile Include="..\SystemAnalysis\cpu_info.cpp" />
     <ClCompile Include="..\SystemAnalysis\getdxver.cpp" />
+    <ClCompile Include="..\GCUtil\KncUtil.cpp" />
     <ClCompile Include="ColorStatic.cpp" />
     <ClCompile Include="curlsession.cpp" />
     <ClCompile Include="DownLoadDlg.cpp" />

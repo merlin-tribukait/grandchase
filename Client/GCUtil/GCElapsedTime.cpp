@@ -1,7 +1,7 @@
 #include "stdafx.h"
 #include ".\gcelapsedtime.h"
 
-#include <dbg/dbg.hpp>
+#include "../NewPatcher/dbg/dbg.hpp"
 
 #pragma comment(lib, "winmm.lib" )
 

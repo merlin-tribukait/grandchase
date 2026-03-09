@@ -9,6 +9,14 @@
 #include "XorCRC.h"
 #include "..\MassFileLib\CRC32\CRC_32.h"
 
+// Static member definitions
+std::map<unsigned int, INT64> Komfile::keymap;
+
+void Komfile::AddKey(INT64 key)
+{
+	keymap[0] = key;
+}
+
 bool IsFileExists(std::string filename)
 {
 	if (_access(filename.c_str(), 0) != -1)

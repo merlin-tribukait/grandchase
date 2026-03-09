@@ -1,6 +1,6 @@
 #pragma once
 #include "AloFileMonitor.h"
-#include <KNCSingleton.h>
+#include "../KSingleton.h"
 //#include <vector>
 //#include <string>
 
