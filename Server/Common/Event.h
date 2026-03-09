@@ -55,8 +55,17 @@ public: \
 
 class KEvent : public boost::noncopyable
 {
-	NiDeclareRootRTTI(KEvent);
-	DeclToStringW;
+public:
+	// RTTI implementation
+	static const NiRTTI* GetRTTI() { return &ms_RTTI; }
+	virtual const NiRTTI* GetRTTI() const { return &ms_RTTI; }
+	static bool IsKindOf(const NiRTTI& rtti) { return &ms_RTTI == &rtti; }
+	virtual bool IsKindOf(const NiRTTI& rtti) const { return &ms_RTTI == &rtti; }
+	virtual const char* GetTypeName() const { return "KEvent"; }
+	virtual std::wstring ToString() const { return L"KEvent"; }
+	
+private:
+	static const NiRTTI ms_RTTI;
 
 public:
 	enum FROM_TYPE {

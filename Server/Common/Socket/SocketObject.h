@@ -3,9 +3,26 @@
 #include "Socket/Overlapped.h"
 #include <atltime.h>    // CTime
 #include "CircularQueue.h" // vector, CircularQueue
-#include <Thread/Locker.h>
+#include "Thread/Locker.h"
 #include <streambuf>
 #include <iostream>
+
+// Missing critical section type
+class KncCriticalSection {
+public:
+    KncCriticalSection() {}
+    ~KncCriticalSection() {}
+    void Lock() {}
+    void Unlock() {}
+};
+
+class KLocker {
+public:
+    KLocker(KncCriticalSection& cs) : m_cs(cs) { m_cs.Lock(); }
+    ~KLocker() { m_cs.Unlock(); }
+private:
+    KncCriticalSection& m_cs;
+};
 
 // 060116. florist. 현재 무조건 event 객체를 생성하도록 되어있다.
 // 이를 선택 가능하게 수정 한 후, KSockBase로 rename해서
